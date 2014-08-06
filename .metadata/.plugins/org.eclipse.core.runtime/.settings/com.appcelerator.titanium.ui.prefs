@@ -1,7 +1,7 @@
 =run
-LAST_LAUNCH_TIMESTAMP=1407324077225
+LAST_LAUNCH_TIMESTAMP=1407327879738
 eclipse.preferences.version=1
 listview\:launchMode=run
-listview\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (3.5 inch)
+listview\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.iPad
 preference.show.console.onError=true
 preference.studio.perspective.version=103
