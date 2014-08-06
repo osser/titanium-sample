@@ -1,5 +1,5 @@
 <Alloy>
-	<TabGroup barColor="#33CC33" tintColor="white" tabsBackgroundColor="black">
+	<TabGroup barColor="#33CC33" tintColor="white" tabsBackgroundColor="black" top="20">
 		<Tab title="lv01" icon="list48.png">
 			<Window class="container" title="ListView01">
 				<Label id="label" onClick="doClick">Hello, World1</Label>
