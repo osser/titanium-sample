@@ -1,0 +1,8 @@
+<Alloy>
+	<TabGroup barColor="#33CC33" tintColor="white" tabsBackgroundColor="black">
+		
+	</TabGroup>
+	<Window class="container">
+		<Label id="label" onClick="doClick">Hello, World</Label>
+	</Window>
+</Alloy>

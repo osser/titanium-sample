@@ -1,0 +1,24 @@
+<Alloy>
+	<TabGroup barColor="#33CC33" tintColor="white" tabsBackgroundColor="black">
+		<Tab title="lv01" icon="list48.png">
+			<Window class="container" title="ListView01">
+				<Label id="label" onClick="doClick">Hello, World1</Label>
+			</Window>
+		</Tab>
+		<Tab title="lv02" icon="list48.png">
+			<Window class="container" title="ListView02">
+				<Label id="label" onClick="doClick">Hello, World2</Label>
+			</Window>
+		</Tab>
+		<Tab title="lv03" icon="list48.png">
+			<Window class="container" title="ListView03">
+				<Label id="label" onClick="doClick">Hello, World3</Label>
+			</Window>
+		</Tab>
+		<Tab title="lv04" icon="list48.png">
+			<Window class="container" title="ListView04">
+				<Label id="label" onClick="doClick">Hello, World4</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
