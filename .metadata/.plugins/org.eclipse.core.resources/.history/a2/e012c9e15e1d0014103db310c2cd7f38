@@ -1,9 +1,0 @@
-<Alloy>
-	<TabGroup barColor="#33CC33" tintColor="white" tabsBackgroundColor="black">
-		<Tab title="lv01" icon="list48.png">
-			<Window class="container" title="ListView01">
-				<Label id="label" onClick="doClick">Hello, World</Label>
-			</Window>
-		</Tab>
-	</TabGroup>
-</Alloy>
