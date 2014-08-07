@@ -2,7 +2,21 @@
 	<TabGroup barColor="#33CC33" tintColor="white" tabsBackgroundColor="black" top="20">
 		<Tab title="lv01" icon="list48.png">
 			<Window class="container" title="ListView01">
-				<Label id="label" onClick="doClick">Hello, World1</Label>
+				<ListView allowsSelection="true" headerTitle="ListView Header" footerTitle="ListView Footer">
+					<ListSection headerTitle="Section Header1" footerTitle="Section Footer1">
+						<ListItem title="Item1" image="soccer32.png" accessoryType="Titanium.UI.LIST_ACCESSORY_TYPE_DETAIL"></ListItem>
+						<ListItem title="Item2" image="soccer48.png"></ListItem>
+						<ListItem title="Item3"></ListItem>
+						<ListItem title="Item4" image="soccer16.png"></ListItem>
+						<ListItem title="Item5"></ListItem>
+						<ListItem title="Item6"></ListItem>
+					</ListSection>
+					<ListSection headerTitle="Section Header2" footerTitle="Section Footer2">
+						<ListItem title="ItemA"></ListItem>
+						<ListItem title="ItemB"></ListItem>
+						<ListItem title="ItemC"></ListItem>
+					</ListSection>
+				</ListView>
 			</Window>
 		</Tab>
 		<Tab title="lv02" icon="list48.png">
