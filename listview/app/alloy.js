@@ -11,3 +11,18 @@
 // Alloy.Globals.someGlobalFunction = function(){};
 
 Ti.UI.setBackgroundColor("silver");
+
+Alloy.Globals.top = 0;
+Alloy.Globals.tableTop = '50';
+
+try {
+	console.log("Titanium.Platform.version:", Titanium.Platform.version);
+	// check for iOS7
+	if (OS_IOS && parseInt(Titanium.Platform.version.split(".")[0], 10) >= 7) {
+		Alloy.Globals.top = '20';
+		Alloy.Globals.tableTop = '70';
+	}
+	console.log("Alloy.Globals.top:", Alloy.Globals.top);
+} catch(e) {
+	// catch and ignore
+}
