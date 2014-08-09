@@ -10,7 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Ti.UI.setBackgroundColor("silver");
+Ti.UI.setBackgroundColor("#F8F8F8");
 
 Alloy.Globals.top = 0;
 Alloy.Globals.tableTop = '50';

@@ -10,16 +10,25 @@
 						<ListItem title="Item4" image="soccer16.png"></ListItem>
 						<ListItem title="Item5"></ListItem>
 						<ListItem title="Item6"></ListItem>
+						<ListItem title="Item7"></ListItem>
+						<ListItem title="Item8"></ListItem>
+						<ListItem title="Item9"></ListItem>
 					</ListSection>
 					<ListSection headerTitle="Section Header2" footerTitle="Section Footer2">
 						<ListItem title="ItemA"></ListItem>
 						<ListItem title="ItemB"></ListItem>
 						<ListItem title="ItemC"></ListItem>
+						<ListItem title="ItemD"></ListItem>
+						<ListItem title="ItemE"></ListItem>
+						<ListItem title="ItemF"></ListItem>
+						<ListItem title="ItemG"></ListItem>
+						<ListItem title="ItemH"></ListItem>
+						<ListItem title="ItemI"></ListItem>
 					</ListSection>
 				</ListView>
 			</Window>
 		</Tab>
-		<Tab title="LIVE" icon="camera32.png">
+		<Tab title="LIVE" icon="camera32.png" badge="3">
 			<Window class="container" title="ListView02">
 				<Label id="label" onClick="doClick">Hello, World2</Label>
 			</Window>
