@@ -1,0 +1,12 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Tab1" icon="person32.png">
+			<Require src="stopWatch" id="stopWatch"></Require>
+		</Tab>
+		<Tab title="Tab2" icon="setting32.png">
+			<Window backgroundColor="silver" title="Windows 2">
+				<Label id="label" onClick="doClick">Hello, Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
