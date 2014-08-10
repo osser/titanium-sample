@@ -5,3 +5,7 @@
 		fontSize: 40
 	}
 }
+
+"Button":{
+	backgroundColor: "purple"
+}

@@ -2,10 +2,11 @@
 	<Window title="ストップ時計" backgroundColor="silver" onOpen="frmOpen"o>
 		<View class="container" layout="vertical">
 			<Label top="50" color="blue">時間</Label>
-			<View layout="horizontal" borderWidth="3" borderColor="green" height="100">
-				<Button id="btnStart" visible="true" onClick="btnStart_click" left="20" width="80"  top="30" borderWidth="1" backgroundColor="gray" color="white">開始</Button>
-				<Button id="btnContinue" visible="false" onClick="btnContinue_click" left="20" width="80" top="30" borderWidth="1" backgroundColor="gray" color="white">継続</Button>
-				<Button id="btnRestart" visible="false" onClick="btnRestart_click" left="20" width="80" top="30" borderWidth="1" backgroundColor="gray" color="white">リスタート</Button>
+			<Label top="10" color="black" id="lblTime">00:00:00.000</Label>
+			<View layout="horizontal" borderWidth="3" borderColor="green" height="100" backgroundColor="yellow">
+				<Button id="btnStart" visible="true" onClick="btnStart_click" left="20" width="80"  top="30" borderRadius="10" color="red">開始</Button>
+				<Button id="btnContinue" visible="false" onClick="btnContinue_click" left="20" width="80" top="30" borderRadius="10" borderWidth="2" color="green">継続</Button>
+				<Button id="btnRestart" visible="false" onClick="btnRestart_click" left="20" width="80" top="30" borderRadius="0" borderWidth="3" color="blue">リスタート</Button>
 			</View>
 			<Label id="lblInfo" top="20" color="black">ssss</Label>
 		</View>
