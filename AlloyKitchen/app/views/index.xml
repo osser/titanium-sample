@@ -1,0 +1,29 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Base UI" icon="common/calendar32.png">
+			<Window title="Base UI">
+				<Label>I am Window 1</Label>
+			</Window>
+		</Tab>
+		<Tab title="Controls" icon="common/man32.png">
+			<Window title="Controls">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+		<Tab title="Phone" icon="common/new32.png">
+			<Window title="Phone">
+				<Label>I am Window 3</Label>
+			</Window>
+		</Tab>
+		<Tab title="Platform" icon="common/photo32.png">
+			<Window title="Platform">
+				<Label>I am Window 4</Label>
+			</Window>
+		</Tab>
+		<Tab title="Mashups" icon="common/video32.png">
+			<Window title="Mashups">
+				<Label>I am Window 5</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
