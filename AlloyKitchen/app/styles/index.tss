@@ -10,4 +10,5 @@
 		fontFamily: 'Helvetica Neue'
 	},
 	textAlign: 'center'
-} 
+},
+"#baseui": {}

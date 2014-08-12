@@ -1,9 +1,7 @@
 <Alloy>
 	<TabGroup>
 		<Tab title="Base UI" icon="common/calendar32.png">
-			<Window title="Base UI">
-				<Label>I am Window 1</Label>
-			</Window>
+			<Require id="baseui" src="baseui"></Require>
 		</Tab>
 		<Tab title="Controls" icon="common/man32.png">
 			<Window title="Controls">
