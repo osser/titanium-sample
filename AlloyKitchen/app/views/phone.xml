@@ -1,4 +1,26 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window title="Phone" class="container">
+		<ListView onItemclick="lv_itemclick">
+			<ListSection>
+				<ListItem title="Play Movie"></ListItem>
+				<ListItem title="Vibrate"></ListItem>
+				<ListItem title="Geolocation"></ListItem>
+				<ListItem title="Accelerometer"></ListItem>
+				<ListItem title="Contacts"></ListItem>
+				<ListItem title="Sound"></ListItem>
+				<ListItem title="Photo Gallery"></ListItem>
+				<ListItem title="Orientation"></ListItem>
+				<ListItem title="Camera"></ListItem>
+				<ListItem title="Screenshot" platform="ios"></ListItem>
+				<ListItem title="Save to Gallery" platform="ios"></ListItem>
+				<ListItem title="Shake" platform="ios"></ListItem>
+				<ListItem title="Record Video" platform="ios"></ListItem>
+				<ListItem title="Music" platform="ios"></ListItem>
+				<ListItem title="Proximity Events" platform="ios"></ListItem>
+				<ListItem title="App Badge" platform="ios"></ListItem>
+				<ListItem title="Push Notifications" platform="ios"></ListItem>
+				<ListItem title="Notifications" platform="android"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
 </Alloy>

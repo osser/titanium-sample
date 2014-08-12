@@ -11,4 +11,12 @@
 	},
 	textAlign: 'center'
 },
-"#baseui": {}
+"#baseui": {},
+
+"#controls": {},
+
+"#phone": {},
+
+"#platform": {},
+
+"#mashups": {}

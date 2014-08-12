@@ -4,24 +4,16 @@
 			<Require id="baseui" src="baseui"></Require>
 		</Tab>
 		<Tab title="Controls" icon="common/man32.png">
-			<Window title="Controls">
-				<Label>I am Window 2</Label>
-			</Window>
+			<Require id="controls" src="controls"></Require>
 		</Tab>
 		<Tab title="Phone" icon="common/new32.png">
-			<Window title="Phone">
-				<Label>I am Window 3</Label>
-			</Window>
+			<Require id="phone" src="phone"></Require>
 		</Tab>
 		<Tab title="Platform" icon="common/photo32.png">
-			<Window title="Platform">
-				<Label>I am Window 4</Label>
-			</Window>
+			<Require id="platform" src="platform"></Require>
 		</Tab>
 		<Tab title="Mashups" icon="common/video32.png">
-			<Window title="Mashups">
-				<Label>I am Window 5</Label>
-			</Window>
+			<Require id="mashups" src="mashups"></Require>
 		</Tab>
 	</TabGroup>
 </Alloy>

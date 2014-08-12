@@ -1,4 +1,24 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window title="Controls" class="container">
+		<ListView onItemclick="lv_itemclick">
+			<ListSection>
+				<ListItem title="Slider"></ListItem>
+				<ListItem title="Switch"></ListItem>
+				<ListItem title="Activity Indicator"></ListItem>
+				<ListItem title="Progress Bar"></ListItem>
+				<ListItem title="Button"></ListItem>
+				<ListItem title="Label"></ListItem>
+				<ListItem title="Text Field"></ListItem>
+				<ListItem title="Text Area"></ListItem>
+				<ListItem title="Action Bar" platform="android"></ListItem>
+				<ListItem title="Button States"></ListItem>
+				<ListItem title="Picker"></ListItem>
+				<ListItem title="Search Bar"></ListItem>
+				<ListItem title="Button Bar" platform="ios"></ListItem>
+				<ListItem title="Tabbed Bar" platform="ios"></ListItem>
+				<ListItem title="System Buttons" platform="ios"></ListItem>
+				<ListItem title="Toolbar" platform="ios"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
 </Alloy>

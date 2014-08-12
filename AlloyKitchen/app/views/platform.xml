@@ -1,4 +1,30 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window title="Platform" class="container">
+		<ListView onItemclick="lv_itemclick">
+			<ListSection>
+				<ListItem title="XHR"></ListItem>
+				<ListItem title="Network"></ListItem>
+				<ListItem title="CommonJS"></ListItem>
+				<ListItem title="Logging"></ListItem>
+				<ListItem title="Application Data"></ListItem>
+				<ListItem title="Application Events"></ListItem>
+				<ListItem title="Properties API"></ListItem>
+				<ListItem title="Database"></ListItem>
+				<ListItem title="Platform Data"></ListItem>
+				<ListItem title="Filesystem"></ListItem>
+				<ListItem title="JS Includes"></ListItem>
+				<ListItem title="Set Timeout(timer)"></ListItem>
+				<ListItem title="Set Interval(timer)"></ListItem>
+				<ListItem title="XML RSS"></ListItem>
+				<ListItem title="Utils"></ListItem>
+				<ListItem title="JSON"></ListItem>
+				<ListItem title="JS search"></ListItem>
+				<ListItem title="Clipboard"></ListItem>
+				<ListItem title="Sockets"></ListItem>
+				<ListItem title="Passing Data (windows)" platform="ios"></ListItem>
+				<ListItem title="Bonjour" platform="ios"></ListItem>
+				<ListItem title="Android Services" platform="android"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
 </Alloy>
