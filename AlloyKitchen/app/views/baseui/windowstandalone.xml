@@ -1,5 +1,8 @@
 <Alloy>
 	<Window class="container" title="Window Standalone">
+		<RightNavButton platform="ios">
+			<Button systemButton="COMPOSE"></Button>
+		</RightNavButton>
 		<View>
 			<Button id="btnOpenPlain" onClick="btnOpenPlain_click">
 				Open(Plain)
