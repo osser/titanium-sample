@@ -1,13 +1,27 @@
 <Alloy>
 	<Window class="container" title="Tab Groups">
 		<View>
-			<Label>これはタブグループテスト画面です。</Label>
-			<Button id="btn">Add/Remove Tab</Button>
-			<Button>Animate Tab Group</Button>
-			<Button>Close/Animate Tab Group</Button>
-			<Button>Set Active Tab (Index)</Button>
-			<Button>Set Active Tab (Object)</Button>
-			<Button>Switch customization off</Button>
+			<Label>
+				これはタブグループテスト画面です。
+			</Label>
+			<Button id="btnAddRemoveTab" onClick="btnAddRemoveTab_click">
+				Add/Remove Tab
+			</Button>
+			<Button id="btnAnimateTabGroup" onClick="btnAnimateTabGroup_click">
+				Animate Tab Group
+			</Button>
+			<Button id="btnCloseAnimateTabGroup" onClick="btnCloseAnimateTabGroup_click">
+				Close/Animate Tab Group
+			</Button>
+			<Button id="btnSetActiveTabIndex" onClick="btnSetActiveTabIndex_click">
+				Set Active Tab (Controls)
+			</Button>
+			<Button id="btnSetActiveTabObject" onClick="btnSetActiveTabObject_click">
+				Set Active Tab (Phone)
+			</Button>
+			<Button id="btnSwitchCustomization" onClick="btnSwitchCustomization_click">
+				Switch customization off
+			</Button>
 		</View>
 	</Window>
 </Alloy>

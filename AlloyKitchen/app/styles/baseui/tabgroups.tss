@@ -2,6 +2,31 @@
 	backgroundColor: "aqua"
 },
 
+"Label":{
+	color: 'darkgray'
+},
+
 "View":{
 	layout: "vertical"
 },
+
+"Button":{
+	top: 20,
+	backgroundFocusedColor: 'red',
+	backgroundSelectedColor: 'gray',
+	backgroundColor: 'darkgray',
+	borderWidth: 2,
+	width: '80%'
+},
+
+"#btnAddRemoveTab": {},
+
+"#btnAnimateTabGroup": {},
+
+"#btnCloseAnimateTabGroup": {},
+
+"#btnSetActiveTabIndex": {},
+
+"#btnSetActiveTabObject": {},
+
+"#btnSwitchCustomization": {},

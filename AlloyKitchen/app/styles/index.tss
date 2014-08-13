@@ -22,6 +22,9 @@
 "#mashups": {},
 
 ".container": {
+	barColor: "#33CC33",
+	tintColor: "white",
+	tabsBackgroundColor: "black" ,
 	exitOnClose: true
 },
 

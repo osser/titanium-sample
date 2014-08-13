@@ -1,19 +1,24 @@
 <Alloy>
 	<TabGroup class="container">
 		<Tab id="tabBaseUI" title="Base UI" icon="common/calendar32.png">
-			<Require id="baseui" src="baseui"></Require>
+			<Require id="baseui" src="baseui">
+			</Require>
 		</Tab>
 		<Tab id="tabControls" title="Controls" icon="common/man32.png">
-			<Require id="controls" src="controls"></Require>
+			<Require id="controls" src="controls">
+			</Require>
 		</Tab>
 		<Tab id="tabPhone" title="Phone" icon="common/new32.png">
-			<Require id="phone" src="phone"></Require>
+			<Require id="phone" src="phone">
+			</Require>
 		</Tab>
 		<Tab id="tabPlatform" title="Platform" icon="common/photo32.png">
-			<Require id="platform" src="platform"></Require>
+			<Require id="platform" src="platform">
+			</Require>
 		</Tab>
 		<Tab id="tabMashups" title="Mashups" icon="common/video32.png">
-			<Require id="mashups" src="mashups"></Require>
+			<Require id="mashups" src="mashups">
+			</Require>
 		</Tab>
 	</TabGroup>
 </Alloy>
