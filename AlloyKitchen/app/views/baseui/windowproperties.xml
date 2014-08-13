@@ -1,0 +1,24 @@
+<Alloy>
+	<Window class="container" title="Window Properties">
+		<View>
+			<Button id="btnChangeBGColor" onClick="btnChangeBGColor_click">
+				Change BG Color
+			</Button>
+			<Button id="btnChangeBGImage" onClick="btnChangeBGImage_click">
+				Change BG Image
+			</Button>
+			<Button id="btnToggleHeightWidth" onClick="btnToggleHeightWidth_click">
+				Toggle Height/Width
+			</Button>
+			<Button id="btnToggleOpacity" onClick="btnToggleOpacity_click">
+				Toggle Opacity
+			</Button>
+			<Button id="btnLayoutDimension" onClick="btnLayoutDimension_click">
+				Layout/Dimension Properties
+			</Button>
+			<Button id="btnToggleBorder" onClick="btnToggleBorder_click" platform="ios">
+				Toggle Border Properties
+			</Button>
+		</View>
+	</Window>
+</Alloy>

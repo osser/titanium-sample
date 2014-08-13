@@ -2,26 +2,46 @@
 	<Window title="Base UI" class="container">
 		<ListView onItemclick="lv_itemclick">
 			<ListSection>
-				<ListItem title="Tab Groups" formid="tabgroups"></ListItem>
-				<ListItem title="Window Properties"></ListItem>
-				<ListItem title="Window Layout"></ListItem>
-				<ListItem title="Window(Standalone)"></ListItem>
-				<ListItem title="Views"></ListItem>
-				<ListItem title="Custom Events"></ListItem>
-				<ListItem title="Window Events"></ListItem>
-				<ListItem title="Vertical Layout"></ListItem>
-				<ListItem title="Horizontal Layout"></ListItem>
-				<ListItem title="Tabs" platform="ios"></ListItem>
-				<ListItem title="Window NavBar" platform="ios"></ListItem>
-				<ListItem title="Window Toolbar" platform="ios"></ListItem>
-				<ListItem title="Window Constructor" platform="ios"></ListItem>
-				<ListItem title="Animation" platform="ios"></ListItem>
-				<ListItem title="Modal Windows" platform="ios"></ListItem>
-				<ListItem title="Custom Fonts" platform="ios"></ListItem>
-				<ListItem title="Preferences" platform="android"></ListItem>
-				<ListItem title="Hide Soft Keyboard" platform="android"></ListItem>
-				<ListItem title="Window Soft Input" platform="android"></ListItem>
-				<ListItem title="Menu" platform="android"></ListItem>
+				<ListItem title="Tab Groups" formid="tabgroups">
+				</ListItem>
+				<ListItem title="Window Properties" formid="windowproperties">
+				</ListItem>
+				<ListItem title="Window Layout" formid="windowlayout">
+				</ListItem>
+				<ListItem title="Window(Standalone)" formid="windowstandalone">
+				</ListItem>
+				<ListItem title="Views">
+				</ListItem>
+				<ListItem title="Custom Events">
+				</ListItem>
+				<ListItem title="Window Events">
+				</ListItem>
+				<ListItem title="Vertical Layout">
+				</ListItem>
+				<ListItem title="Horizontal Layout">
+				</ListItem>
+				<ListItem title="Tabs" platform="ios">
+				</ListItem>
+				<ListItem title="Window NavBar" platform="ios">
+				</ListItem>
+				<ListItem title="Window Toolbar" platform="ios">
+				</ListItem>
+				<ListItem title="Window Constructor" platform="ios">
+				</ListItem>
+				<ListItem title="Animation" platform="ios">
+				</ListItem>
+				<ListItem title="Modal Windows" platform="ios">
+				</ListItem>
+				<ListItem title="Custom Fonts" platform="ios">
+				</ListItem>
+				<ListItem title="Preferences" platform="android">
+				</ListItem>
+				<ListItem title="Hide Soft Keyboard" platform="android">
+				</ListItem>
+				<ListItem title="Window Soft Input" platform="android">
+				</ListItem>
+				<ListItem title="Menu" platform="android">
+				</ListItem>
 			</ListSection>
 		</ListView>
 	</Window>

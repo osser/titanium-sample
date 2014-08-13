@@ -1,0 +1,26 @@
+".container": {
+	backgroundColor: 'lightgray'
+},
+"View":{
+	layout: "vertical"
+},
+"Button":{
+	top: 20,
+	backgroundFocusedColor: 'red',
+	backgroundSelectedColor: '#00a300',
+	backgroundColor: '#1e7145',
+	borderWidth: 2,
+	width: '80%'
+},
+
+"#btnOpenPlain": {},
+
+"#btnTraditionalModel": {},
+
+"#btnOpenAnimationFun": {},
+
+"#btnOpenNavBarVisible": {},
+
+"#btnOpenFullScreen": {},
+
+"#btnOpenToolbar": {},

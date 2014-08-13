@@ -1,0 +1,24 @@
+<Alloy>
+	<Window class="container" title="Window Standalone">
+		<View>
+			<Button id="btnOpenPlain" onClick="btnOpenPlain_click">
+				Open(Plain)
+			</Button>
+			<Button id="btnTraditionalModel" onClick="btnTraditionalModel_click">
+				Traditional Modal
+			</Button>
+			<Button id="btnOpenAnimationFun"  onClick="btnOpenAnimationFun_click" platform="ios">
+				Open(Animation Fun)
+			</Button>
+			<Button id="btnOpenNavBarVisible" onClick="btnOpenNavBarVisible_click" platform="ios">
+				Open(Nav Bar Visible)
+			</Button>
+			<Button id="btnOpenFullScreen" onClick="btnOpenFullScreen_click">
+				Open(FullScreen)
+			</Button>
+			<Button id="btnOpenToolbar" onClick="btnOpenToolbar_click" platform="ios">
+				Open(Toolbar)
+			</Button>
+		</View>
+	</Window>
+</Alloy>
