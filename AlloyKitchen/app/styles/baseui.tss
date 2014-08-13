@@ -20,4 +20,6 @@
 		fontSize: 16,
 		fontFamily: 'Oswald-Regular'
 	}
-}
+},
+
+"#frmBaseUI": {}

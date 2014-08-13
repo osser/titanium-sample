@@ -2,7 +2,7 @@
 	<Window title="Base UI" class="container">
 		<ListView onItemclick="lv_itemclick">
 			<ListSection>
-				<ListItem title="Tab Groups"></ListItem>
+				<ListItem title="Tab Groups" formid="tabgroups"></ListItem>
 				<ListItem title="Window Properties"></ListItem>
 				<ListItem title="Window Layout"></ListItem>
 				<ListItem title="Window(Standalone)"></ListItem>

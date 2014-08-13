@@ -19,4 +19,18 @@
 
 "#platform": {},
 
-"#mashups": {}
+"#mashups": {},
+
+".container": {
+	exitOnClose: true
+},
+
+"#tabBaseUI": {},
+
+"#tabControls": {},
+
+"#tabPhone": {},
+
+"#tabPlatform": {},
+
+"#tabMashups": {},

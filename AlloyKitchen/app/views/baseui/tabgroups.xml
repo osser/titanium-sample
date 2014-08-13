@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container" title="Tab Groups">
+		<View>
+			<Label>これはタブグループテスト画面です。</Label>
+			<Button id="btn">Add/Remove Tab</Button>
+			<Button>Animate Tab Group</Button>
+			<Button>Close/Animate Tab Group</Button>
+			<Button>Set Active Tab (Index)</Button>
+			<Button>Set Active Tab (Object)</Button>
+			<Button>Switch customization off</Button>
+		</View>
+	</Window>
+</Alloy>
