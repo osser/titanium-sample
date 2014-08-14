@@ -204,7 +204,68 @@ var btnOpenFullScreen_click = function(e) {
 };
 
 var btnOpenToolbar_click = function(e) {
+    var label = Titanium.UI.createButton({
+        title : 'Custom Toolbar',
+        color : '#fff',
+        style : Titanium.UI.iPhone.SystemButtonStyle.PLAIN
+    });
 
+    var flexSpace = Titanium.UI.createButton({
+        systemButton : Titanium.UI.iPhone.SystemButton.FLEXIBLE_SPACE
+    });
+    var close = Titanium.UI.createButton({
+        title : 'Close',
+        style : Titanium.UI.iPhone.SystemButtonStyle.DONE
+    });
+    var hello = Titanium.UI.createButton({
+        title : 'Hello',
+        style : Titanium.UI.iPhone.SystemButtonStyle.BORDERED
+    });
+    var w = Titanium.UI.createWindow({
+        backgroundColor : '#336699'
+    });
+    close.addEventListener('click', function() {
+        Ti.API.info('IN HERE');
+        w.close();
+    });
+    if (isIOS7) {
+        theTop = 20;
+    } else {
+        theTop = 0;
+    }
+    // create and add toolbar
+    var toolbar = Titanium.UI.iOS.createToolbar({
+        items : [hello, flexSpace, label, flexSpace, close],
+        top : theTop,
+        borderTop : false,
+        borderBottom : true
+    });
+    w.add(toolbar);
+    var move = Titanium.UI.createButton({
+        title : 'Move Toolbar',
+        height : 40,
+        width : 200,
+        color : 'white',
+        font : {
+            fontSize : 24,
+            fontFamily : 'Oswald-Regular'
+        }
+    });
+    w.add(move);
+    move.addEventListener('click', function() {
+        if (isIOS7) {
+            toolbar.animate({
+                top : 40,
+                duration : 500
+            });
+        } else {
+            toolbar.animate({
+                top : 20,
+                duration : 500
+            });
+        }
+    });
+    w.open();
 };
 
 var btnRight_click = function(e) {
