@@ -4,7 +4,7 @@
 			<ListView onItemclick="lv_itemclick">
 				<ListSection>
 					<ListItem title="Events Propagation" formid="events_propagation" />
-					<ListItem title="Events Interaction" />
+					<ListItem title="Events Interaction" formid="events_interaction" />
 					<ListItem title="List View" />
 					<ListItem title="Image Views" />
 					<ListItem title="Scroll Views" />

@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" title="Events Interaction" onClick="form_click">
+		<Label id="lblWin" />
+		<Label id="lblBox" />
+		<Label id="lblLabel" />
+		<View id="vA">
+		</View>
+		<View id="vB" onClick="v8_click">
+			<Label id="lblClickMe" text="Click on me" onClick="lblClickMe_click" />
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,51 @@
+".container": {
+	backgroundColor: '#eff4ff'
+},
+
+"#vA":{
+	width: 200,
+	height: 200,
+	touchEnabled: false
+},
+
+"#vB":{
+	width: 200,
+	height: 200,
+	borderRadius: 10,
+	backgroundColor: 'purple'
+},
+
+"#lblClickMe": {
+	color: 'white',
+	font:{
+		fontSize: 24,
+		fontWeight: 'bold'
+	}
+},
+
+"#lblBox": {
+	text: 'click on box',
+	top: 30,
+	left: 10,
+	font:{
+		fontSize: 14
+	}
+},
+
+"#lblLabel": {
+	text: 'click on label',
+	top: 50,
+	left: 10,
+	font:{
+		fontSize: 14
+	}
+},
+
+"#lblWin": {
+	text: 'click on window',
+	top: 10,
+	left: 10,
+	font:{
+		fontSize: 14
+	}
+},

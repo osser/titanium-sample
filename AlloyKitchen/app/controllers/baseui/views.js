@@ -7,15 +7,15 @@ var lv_itemclick = function(e) {
         //2014/08/14 15:32:05 Android Error
         //console.log('args.parentTab:', args.parentTab);
 
+        var winid = 'baseui/views/' + item.properties.formid;
         if (OS_IOS) {
-            var win = Alloy.createController('baseui/views/' + item.properties.formid, {
+            var win = Alloy.createController(winid, {
                 parentTab : args.parentTab
             }).getView();
             args.parentTab.open(win);
         };
         if (OS_ANDROID) {
-            var win = Alloy.createController('baseui/views/' + item.properties.formid, {
-            }).getView();
+            var win = Alloy.createController(winid, {}).getView();
             win.open();
         }
     } else {
