@@ -1,7 +1,8 @@
 <Alloy>
 	<Window class="container" title="Window Standalone">
 		<RightNavButton platform="ios">
-			<Button systemButton="COMPOSE"></Button>
+			<Button systemButton="STOP" onClick="btnRight_click">
+			</Button>
 		</RightNavButton>
 		<View>
 			<Button id="btnOpenPlain" onClick="btnOpenPlain_click">
@@ -23,5 +24,14 @@
 				Open(Toolbar)
 			</Button>
 		</View>
+		<Toolbar platform="ios" bottom="0" tintColor="silver" barColor="#603cba">
+			<Items>
+				<Button id="btnOpenWin1" onClick="btnOpenWin1_click" title="OpenWin1" />
+				<FlexSpace />
+				<Button id="btnOpenWin2" onClick="btnOpenWin2_click" title="OpenWin2" />
+				<FlexSpace />
+				<Button id="btnOpenWin3" onClick="btnOpenWin3_click" title="OpenWin3" systemButton="CAMERA"/>
+			</Items>
+		</Toolbar>
 	</Window>
 </Alloy>

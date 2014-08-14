@@ -10,9 +10,13 @@
 	backgroundSelectedColor: '#00a300',
 	backgroundColor: '#1e7145',
 	borderWidth: 2,
-	width: '80%'
+	width: '80%',
+	font:{
+		fontSize: 18,
+		fontFamily: 'Oswald-Regular'
+	}
 },
-
+"Toolbar":{},
 "#btnOpenPlain": {},
 
 "#btnTraditionalModel": {},
@@ -24,3 +28,14 @@
 "#btnOpenFullScreen": {},
 
 "#btnOpenToolbar": {},
+
+"#btnOpenWin1": {
+	font: {
+		fontSize: 16,
+		fontFamily: 'Oswald-Regular'
+	}
+},
+
+"#btnOpenWin2": {},
+
+"#btnOpenWin3": {},
