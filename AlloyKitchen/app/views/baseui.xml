@@ -1,6 +1,6 @@
 <Alloy>
 	<Window title="Base UI" class="container">
-		<ListView onItemclick="lv_itemclick">
+		<ListView onItemclick="lv_itemclick" separatorColor="#eff4ff">
 			<ListSection>
 				<ListItem title="Tab Groups" formid="tabgroups" />
 				<ListItem title="Window Properties" formid="windowproperties" />

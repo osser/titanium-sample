@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" title="Customize Build in templates" tintColor="blue">
+		<ListView>
+			<ListSection id="ls_default" headerTitle="Template Default">
+			</ListSection>
+			<ListSection id="ls_settings" headerTitle="Template Settings">
+			</ListSection>
+			<ListSection id="ls_subtitle" headerTitle="Template Subtitle">
+			</ListSection>
+			<ListSection id="ls_contacts" headerTitle="Template Contacts">
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

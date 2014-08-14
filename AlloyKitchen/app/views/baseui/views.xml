@@ -1,11 +1,11 @@
 <Alloy>
 	<Window class="container" title="Views">
 		<View>
-			<ListView onItemclick="lv_itemclick">
+			<ListView onItemclick="lv_itemclick" style="GROUPED">
 				<ListSection>
 					<ListItem title="Events Propagation" formid="events_propagation" />
 					<ListItem title="Events Interaction" formid="events_interaction" />
-					<ListItem title="List View" />
+					<ListItem title="List View" formid="listviews" />
 					<ListItem title="Image Views" />
 					<ListItem title="Scroll Views" />
 					<ListItem title="Table Views" />

@@ -1,23 +1,23 @@
 <Alloy>
 	<Window title="Controls" class="container">
-		<ListView onItemclick="lv_itemclick">
+		<ListView onItemclick="lv_itemclick" separatorColor="blue">
 			<ListSection>
-				<ListItem title="Slider"></ListItem>
-				<ListItem title="Switch"></ListItem>
-				<ListItem title="Activity Indicator"></ListItem>
-				<ListItem title="Progress Bar"></ListItem>
-				<ListItem title="Button"></ListItem>
-				<ListItem title="Label"></ListItem>
-				<ListItem title="Text Field"></ListItem>
-				<ListItem title="Text Area"></ListItem>
-				<ListItem title="Action Bar" platform="android"></ListItem>
-				<ListItem title="Button States"></ListItem>
-				<ListItem title="Picker"></ListItem>
-				<ListItem title="Search Bar"></ListItem>
-				<ListItem title="Button Bar" platform="ios"></ListItem>
-				<ListItem title="Tabbed Bar" platform="ios"></ListItem>
-				<ListItem title="System Buttons" platform="ios"></ListItem>
-				<ListItem title="Toolbar" platform="ios"></ListItem>
+				<ListItem title="Slider" />
+				<ListItem title="Switch" />
+				<ListItem title="Activity Indicator" />
+				<ListItem title="Progress Bar" />
+				<ListItem title="Button" />
+				<ListItem title="Label" />
+				<ListItem title="Text Field" />
+				<ListItem title="Text Area" />
+				<ListItem title="Action Bar" platform="android" />
+				<ListItem title="Button States" />
+				<ListItem title="Picker" />
+				<ListItem title="Search Bar" />
+				<ListItem title="Button Bar" platform="ios" />
+				<ListItem title="Tabbed Bar" platform="ios" />
+				<ListItem title="System Buttons" platform="ios" />
+				<ListItem title="Toolbar" platform="ios" />
 			</ListSection>
 		</ListView>
 	</Window>

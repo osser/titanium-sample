@@ -1,0 +1,62 @@
+<Alloy>
+	<Window class="container" title="ListViews">
+		<ListView headerTitle="This is a list view too." separatorColor="#00a300" onItemclick="lv_itemclick">
+			<ListSection headerTitle="Basic Functions">
+				<ListItem title="Build in templates" formid="list_basic" />
+				<ListItem title="Customize Build in templates" formid="list_basic_customize" />
+				<ListItem title="Background Colors&Scroll Indicator" />
+				<ListItem title="Headers and Footers" />
+				<ListItem title="Row Height" />
+				<ListItem title="Default Template" />
+				<ListItem title="Scroll To" />
+				<ListItem title="Section Style" platform="ios" />
+				<ListItem title="Scroll Indicator Style" platform="ios" />
+				<ListItem title="Allow Selection Behavior" platform="ios" />
+				<ListItem title="Keyboard Behavior" platform="ios" />
+			</ListSection>
+			<ListSection headerTitle="List API - Section Management">
+				<ListItem title="Append Section" />
+				<ListItem title="Delete Section" />
+				<ListItem title="Insert Section" />
+				<ListItem title="Replace Section" />
+			</ListSection>
+			<ListSection headerTitle="Section API - Item Management">
+				<ListItem title="Set Items" />
+				<ListItem title="Append Items" />
+				<ListItem title="Insert Items" />
+				<ListItem title="Replace Items" />
+				<ListItem title="Delete Items" />
+				<ListItem title="Update Items" />
+				<ListItem title="Get Items (otherData)" />
+			</ListSection>
+			<ListSection headerTitle="List View eventing. Run in order">
+				<ListItem title="Sanity Check" />
+				<ListItem title="Event Bubbling" />
+				<ListItem title="Child Events" />
+				<ListItem title="itemclick + child click" />
+			</ListSection>
+			<ListSection headerTitle="List View Performance">
+				<ListItem title="Remote Images in ListView" />
+				<ListItem title="Contacts" />
+			</ListSection>
+			<ListSection headerTitle="V2 UI Enhancements">
+				<ListItem title="Item Separrators" />
+				<ListItem title="Custom Headers&Footers" />
+				<ListItem title="Custom Backgrounds" />
+				<ListItem title="Select & Deselect Item" platform="ios" />
+				<ListItem title="Misc UI" platform="ios" />
+				<ListItem title="Pull View" platform="ios" />
+			</ListSection>
+			<ListSection headerTitle="V2 Editing Support" platform="ios">
+				<ListItem title="Delete Rows" />
+				<ListItem title="Recorder Rows" />
+			</ListSection>
+			<ListSection headerTitle="V2 Search & Index Support">
+				<ListItem title="Basic Search (searchView)" />
+				<ListItem title="New Search API (searchText)" />
+				<ListItem title="Fun with searchText" platform="ios" />
+				<ListItem title="Index Bar (sectionIndex Titles)" platform="ios" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

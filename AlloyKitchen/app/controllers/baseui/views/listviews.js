@@ -3,11 +3,7 @@ var args = arguments[0] || {};
 var lv_itemclick = function(e) {
     var item = e.section.getItemAt(e.itemIndex);
     if (item.properties.formid) {
-        //console.log('args.testkey:', args.testkey);
-        //2014/08/14 15:32:05 Android Error
-        //console.log('args.parentTab:', args.parentTab);
-
-        var winid = 'baseui/views/' + item.properties.formid;
+        var winid = 'baseui/views/listview/' + item.properties.formid;
         if (OS_IOS) {
             var win = Alloy.createController(winid, {
                 parentTab : args.parentTab

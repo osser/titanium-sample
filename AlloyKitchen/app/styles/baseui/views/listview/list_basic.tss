@@ -1,0 +1,12 @@
+
+".container": {
+	backgroundColor: '#eff4ff'
+}
+
+"#ls_default": {}
+
+"#ls_settings": {}
+
+"#ls_subtitle": {}
+
+"#ls_contacts": {}
