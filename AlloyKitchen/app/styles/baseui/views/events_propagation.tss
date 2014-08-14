@@ -1,0 +1,52 @@
+".container": {
+	backgroundColor: '#eff4ff'
+},
+"View":{
+	width: 100,
+	height: 100,
+	borderColor: 'black',
+	borderWidth: 5,
+	borderRadius: 5
+},
+"Label":{
+	color: 'white',
+	font:{
+		fontSize: 36,
+		fontWeight: 'bold',
+		fontFamily: 'Oswald-Regular'
+	}
+},
+
+"#vA": {
+	backgroundColor: '#1e7145',
+	top: 10
+},
+
+"#vB": {
+	backgroundColor: '#9f00a7',
+	top: 115,
+	right: 40
+},
+
+"#vC": {
+	backgroundColor: '#2d89ef',
+	top: 115,
+	left: 40
+},
+
+"#vD": {
+	backgroundColor: '#da532c',
+	top: 220
+},
+
+"#lblInfo1": {
+	top: 320,
+	left: 20,
+	color: 'black'
+},
+
+"#lblInfo2": {
+	top: 360,
+	left: 20,
+	color: 'black'
+},

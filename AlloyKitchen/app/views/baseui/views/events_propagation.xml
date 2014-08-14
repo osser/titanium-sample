@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="container" title="Events Propagation" text="win" onClick="form_click">
+		<View id="vA" onClick="view_click" text="vA">
+			<Label text="A" />
+		</View>
+		<View id="vB" onClick="view_click" text="vB">
+			<Label text="B" />
+		</View>
+		<View id="vC" onClick="view_click" text="vC">
+			<Label text="C" />
+		</View>
+		<View id="vD" onClick="view_click" text="vD">
+			<Label text="D" />
+		</View>
+		<Label id="lblInfo1" text="AAAAA" />
+		<Label id="lblInfo2" text="BBBBB" />
+	</Window>
+</Alloy>

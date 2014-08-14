@@ -1,0 +1,40 @@
+<Alloy>
+	<Window class="container" title="Views">
+		<View>
+			<ListView onItemclick="lv_itemclick">
+				<ListSection>
+					<ListItem title="Events Propagation" formid="events_propagation" />
+					<ListItem title="Events Interaction" />
+					<ListItem title="List View" />
+					<ListItem title="Image Views" />
+					<ListItem title="Scroll Views" />
+					<ListItem title="Table Views" />
+					<ListItem title="Web Views" />
+					<ListItem title="Alert Dialog" />
+					<ListItem title="Options Dialog" />
+					<ListItem title="Remove Views" />
+					<ListItem title="zIndex" />
+					<ListItem title="Email Dialog" />
+					<ListItem title="Point Conversion" />
+					<ListItem title="View w/h Size" />
+					<ListItem title="Map View" />
+					<ListItem title="Shadow & Clipping (New)" />
+					<ListItem title="View Gestures" />
+					<ListItem title="Map View with Routing" />
+					<ListItem title="Events" />
+					<ListItem title="Events with Views" />
+					<ListItem title="Coverflow View" />
+					<ListItem title="Dashboard View" />
+					<ListItem title="Auto Height" />
+					<ListItem title="Min Height" />
+					<ListItem title="Mixing Views" />
+					<ListItem title="Gradient" />
+					<ListItem title="Hide/Show" />
+					<ListItem title="Hi-Res Image" />
+					<ListItem title="Hi-Res Image 2" />
+					<ListItem title="Hi-Res Image remote" />
+				</ListSection>
+			</ListView>
+		</View>
+	</Window>
+</Alloy>

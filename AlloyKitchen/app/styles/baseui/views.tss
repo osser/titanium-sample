@@ -1,0 +1,9 @@
+".container": {
+	backgroundColor: 'white'
+},
+"View":{
+	layout: 'vertical'
+},
+"ListItem":{
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+},

@@ -1,11 +1,3 @@
-".container": {
-	backgroundColor: "white"
-},
-
-"ListItem":{
-	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
-},
-
 "ListItem[platform=ios formFactor=iphone]":{
 	color: "brown",
 	font: {
@@ -15,11 +7,9 @@
 },
 "ListItem[platform=android]":{
 	color: "blue",
-	height: 50,
+	height: 40,
 	font: {
 		fontSize: 16,
 		fontFamily: 'Oswald-Regular'
 	}
 },
-
-"#frmBaseUI": {}

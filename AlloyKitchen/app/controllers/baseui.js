@@ -5,7 +5,8 @@ var lv_itemclick = function(e) {
     if (item.properties.formid) {
         var win = Alloy.createController('baseui/' + item.properties.formid, {
             tabGroup : $.parentTabGroup,
-            parentTab : $.parentTab
+            parentTab : $.parentTab,
+            testkey : 'test-value'
         }).getView();
         $.parentTab.open(win);
     } else {
