@@ -5,8 +5,8 @@
 				<ListItem title="Build in templates" formid="list_basic" />
 				<ListItem title="Customize Build in templates" formid="list_basic_customize" />
 				<ListItem title="Background Colors&Scroll Indicator" formid="list_background_color" />
-				<ListItem title="Headers and Footers" />
-				<ListItem title="Row Height" />
+				<ListItem title="Headers and Footers" formid="list_headers_footers" />
+				<ListItem title="Row Height" formid="list_row_height" />
 				<ListItem title="Default Template" />
 				<ListItem title="Scroll To" />
 				<ListItem title="Section Style" platform="ios" />

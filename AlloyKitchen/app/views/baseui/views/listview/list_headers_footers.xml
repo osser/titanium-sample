@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" title="Headers & Footers">
+		<RightNavButton platform="ios">
+			<Button id="btnShowGrouped" title="Grouped" systemButton="ORGANIZE" onClick="btnShowGrouped_click" />
+		</RightNavButton>
+		<ListView id="view1"></ListView>
+	</Window>
+</Alloy>
