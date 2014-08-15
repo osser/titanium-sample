@@ -8,7 +8,7 @@
 				<ListItem title="Headers and Footers" formid="list_headers_footers" />
 				<ListItem title="Row Height" formid="list_row_height" />
 				<ListItem title="Default Template" formid="list_deftemplate" />
-				<ListItem title="Scroll To" />
+				<ListItem title="Scroll To" formid="list_scrollto" />
 				<ListItem title="Section Style" platform="ios" />
 				<ListItem title="Scroll Indicator Style" platform="ios" />
 				<ListItem title="Allow Selection Behavior" platform="ios" />

@@ -1,0 +1,13 @@
+".container": {
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+"#frmWin": {}
+
+"#btnScrollToRandom": {
+	backgroundColor: '#eff4ff'
+}
+
+"#lblInfo":{
+	color: 'black'
+}

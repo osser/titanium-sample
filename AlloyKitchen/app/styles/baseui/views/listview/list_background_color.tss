@@ -48,7 +48,7 @@
 "#lblTitle": {
 	text: 'ScrollIndicator=true',
 	font:{
-		fontSize: 18,
+		fontSize: 20,
 		fontWeight: 'bold',
 		fontFamily: 'Oswald-Regular'
 	},
@@ -60,6 +60,7 @@
 	title: 'Prev',
 	top: 5,
 	left: 5,
+	width: 60,
 	height: '12%',
 	color: '#2b5797',
 	borderWidth: 2,
@@ -73,6 +74,7 @@
 	title: 'Next',
 	top: 5,
 	right: 5,
+	width: 60,
 	height: '12%',
 	color: '#2b5797',
 	borderWidth: 2,

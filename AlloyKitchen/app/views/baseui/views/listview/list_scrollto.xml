@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="frmWin" class="container" title="Scroll To">
+		<Label id="lblInfo">Click Button. See me scroll</Label>
+		<Button id="btnScrollToRandom" title="Scroll To Random" top="0" color="blue" onClick="btnScrollToRandom_click" />
+		<ListView id="listView"></ListView>
+	</Window>
+</Alloy>
