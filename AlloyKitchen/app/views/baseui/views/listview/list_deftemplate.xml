@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="frmWin" class="container" title="Default Template" onClose="form_close">
+		<Label id="lblInfo">Change orientation and see layout change by just switching the defaultItemTemplate property on listview</Label>
+		<ListView id="listView" allowsSelection="false">
+			<Templates>
+				<ItemTemplate name="one" height="60">
+					<View left="0" width="50%" height="50" backgroundColor="red" />
+					<View left="50%" width="50%" height="50" backgroundColor="green" />
+				</ItemTemplate>
+				<ItemTemplate name="two" height="30">
+					<View left="0" width="33%" height="25" backgroundColor="red" />
+					<View left="34%" width="33%" height="25" backgroundColor="green" />
+					<View left="68%" width="33%" height="25" backgroundColor="blue" />
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="listSection"></ListSection>
+		</ListView>
+	</Window>
+</Alloy>

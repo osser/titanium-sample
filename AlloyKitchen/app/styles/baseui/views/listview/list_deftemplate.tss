@@ -1,0 +1,9 @@
+".container": {
+	backgroundColor: '#2b5797',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.LANDSCAPE_LEFT, Ti.UI.LANDSCAPE_RIGHT]
+}
+"#lblInfo": {
+	backgroundColor: '#eff4ff',
+	width: '100%'
+}

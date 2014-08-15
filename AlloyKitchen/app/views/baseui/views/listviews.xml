@@ -7,7 +7,7 @@
 				<ListItem title="Background Colors&Scroll Indicator" formid="list_background_color" />
 				<ListItem title="Headers and Footers" formid="list_headers_footers" />
 				<ListItem title="Row Height" formid="list_row_height" />
-				<ListItem title="Default Template" />
+				<ListItem title="Default Template" formid="list_deftemplate" />
 				<ListItem title="Scroll To" />
 				<ListItem title="Section Style" platform="ios" />
 				<ListItem title="Scroll Indicator Style" platform="ios" />

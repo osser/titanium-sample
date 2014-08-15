@@ -1,3 +1,7 @@
 <Alloy>
-	<Window class="container" title="Row Height"></Window>
+	<Window class="container" title="Row Height">
+		<ListView id="listView">
+			<ListSection id="listSection"></ListSection>
+		</ListView>
+	</Window>
 </Alloy>
