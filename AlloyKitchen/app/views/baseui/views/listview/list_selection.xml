@@ -1,4 +1,21 @@
 <Alloy>
 	<Window class="container" title="Allow Selection Behavior">
+		<Button id="btn1" title="Toggle Scroll To Top" onClick="btn1_click" />
+		<Button id="btn2" title="Toggle Allows Selection" onClick="btn2_click" />
+		<Label id="lblStatus">
+			Allows Selection is true.\nClick a row or accessory and itemclick must fire
+		</Label>
+		<ListView id="listView" onItemclick="listView_itemclick">
+			<Templates>
+				<ItemTemplate name="myCell" height="60">
+					<View layout="vertical" onClick="tplView_click">
+						<Button title="Click me." bindId="cellButton" onClick="cellButton_click" color="white" borderWidth="2" width="100" backgroundColor="#da532c" />
+						<Label bindId="lblAAA" text="AAAA" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="listSection">
+			</ListSection>
+		</ListView>
 	</Window>
 </Alloy>

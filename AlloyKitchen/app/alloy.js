@@ -11,3 +11,13 @@
 // Alloy.Globals.someGlobalFunction = function(){};
 
 //'aqua', 'black', 'blue', 'brown', 'cyan', 'darkgray', 'fuchsia', 'gray', 'green', 'lightgray', 'lime', 'magenta', 'maroon', 'navy', 'olive', 'orange', 'pink', 'purple', 'red', 'silver', 'teal', 'white', 'yellow'.
+
+/*
+ var aaa = 'helo aaa';
+ console.log('aaa:', aaa);
+ console.log('bbb', bbb);
+ //bbb = 'helo bbb';
+ function bbb() {
+ alert('bbb function');
+ };
+ */
