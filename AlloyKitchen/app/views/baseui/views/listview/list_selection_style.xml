@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container" title="Section Style">
+		<ListView onItemclick="listView_itemclick">
+			<ListSection id="listSection" headerTitle="SELECTION STYLES"></ListSection>
+		</ListView>
+	</Window>
+</Alloy>

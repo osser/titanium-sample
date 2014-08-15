@@ -9,10 +9,10 @@
 				<ListItem title="Row Height" formid="list_row_height" />
 				<ListItem title="Default Template" formid="list_deftemplate" />
 				<ListItem title="Scroll To" formid="list_scrollto" />
-				<ListItem title="Section Style" platform="ios" />
-				<ListItem title="Scroll Indicator Style" platform="ios" />
-				<ListItem title="Allow Selection Behavior" platform="ios" />
-				<ListItem title="Keyboard Behavior" platform="ios" />
+				<ListItem title="Section Style" formid="list_selection_style" platform="ios" />
+				<ListItem title="Scroll Indicator Style" formid="list_scroll_style" platform="ios" />
+				<ListItem title="Allow Selection Behavior" formid="list_selection" platform="ios" />
+				<ListItem title="Keyboard Behavior" formid="list_kb" platform="ios" />
 			</ListSection>
 			<ListSection headerTitle="List API - Section Management">
 				<ListItem title="Append Section" />

@@ -38,3 +38,9 @@
 	color: 'yellow',
 	textAlign: 'center'
 }
+
+"#txtFirstName": {}
+
+"#txtLastName": {}
+
+"#btnSave": {}
