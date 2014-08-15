@@ -1,0 +1,85 @@
+".container": {
+	backgroundColor: '#eff4ff'
+}
+
+"ListView":{}
+
+"ListItem":{
+	color: 'white'
+}
+
+
+"ScrollableView":{
+	top: '15%',
+	showPagingControl: false,
+	scrollingEnabled: false
+}
+
+"#view1": {
+	backgroundColor: '#ffc40d',
+	showVerticalScrollIndicator: true
+}
+
+"#view2": {
+	backgroundColor: '#b91d47',
+	showVerticalScrollIndicator: false
+}
+
+"#view3": {
+	style: Titanium.UI.iPhone.ListViewStyle.GROUPED,
+	showVerticalScrollIndicator: true,
+	backgroundColor: '#ffc40d'
+}
+
+"#view4": {
+	style: Titanium.UI.iPhone.ListViewStyle.GROUPED,
+	showVerticalScrollIndicator: false,
+	backgroundColor: '#b91d47'
+}
+
+"#ls_yellow": {}
+
+"#ls_red": {}
+
+"#ls_grouped_no_bg": {}
+
+"#ls_grouped_red_bg": {}
+
+"#lblTitle": {
+	text: 'ScrollIndicator=true',
+	font:{
+		fontSize: 18,
+		fontWeight: 'bold',
+		fontFamily: 'Oswald-Regular'
+	},
+	height: '12%',
+	top: '0'
+}
+
+"#btnPrev": {
+	title: 'Prev',
+	top: 5,
+	left: 5,
+	height: '12%',
+	color: '#2b5797',
+	borderWidth: 2,
+	borderRadius: 2,
+	color: 'white',
+	backgroundColor: '#2b5797',
+	backgroundSelectedColor: '#2d89ef'
+}
+
+"#btnNext": {
+	title: 'Next',
+	top: 5,
+	right: 5,
+	height: '12%',
+	color: '#2b5797',
+	borderWidth: 2,
+	borderRadius: 2,
+	color: 'white',
+	backgroundColor: '#2b5797',
+	backgroundSelectedColor: '#2d89ef'
+}
+
+"#scrollView": {}

@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container" title="Background Color">
+		<Button id="btnPrev" onClick="btnPrev_click" />
+		<Button id="btnNext" onClick="btnNext_click" />
+		<Label id="lblTitle" />
+		<ScrollableView id="scrollView">
+			<ListView id="view1">
+				<ListSection id="ls_yellow" headerTitle="Plain No Bg">
+				</ListSection>
+			</ListView>
+			<ListView id="view2">
+				<ListSection id="ls_red" headerTitle="Plain Red Bg">
+				</ListSection>
+			</ListView>
+			<ListView id="view3" platform="ios">
+				<ListSection id="ls_grouped_no_bg" headerTitle="Grouped no bg">
+				</ListSection>
+			</ListView>
+			<ListView id="view4" platform="ios">
+				<ListSection id="ls_grouped_red_bg" headerTitle="Grouped red bg">
+				</ListSection>
+			</ListView>
+		</ScrollableView>
+	</Window>
+</Alloy>

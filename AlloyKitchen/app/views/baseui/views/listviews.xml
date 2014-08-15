@@ -4,7 +4,7 @@
 			<ListSection headerTitle="Basic Functions">
 				<ListItem title="Build in templates" formid="list_basic" />
 				<ListItem title="Customize Build in templates" formid="list_basic_customize" />
-				<ListItem title="Background Colors&Scroll Indicator" />
+				<ListItem title="Background Colors&Scroll Indicator" formid="list_background_color" />
 				<ListItem title="Headers and Footers" />
 				<ListItem title="Row Height" />
 				<ListItem title="Default Template" />

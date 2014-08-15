@@ -7,7 +7,7 @@
 },
 "ListItem[platform=android]":{
 	color: "blue",
-	height: 40,
+	height: 50,
 	font: {
 		fontSize: 16,
 		fontFamily: 'Oswald-Regular'
