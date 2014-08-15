@@ -1,4 +1,14 @@
 <Alloy>
-	<Window class="container" title="Keyboard Behavior">
+	<Window id="frmWin" class="container" title="Keyboard Behavior">
+		<Label id="lblInfo" />
+		<ListView id="listView">
+			<Templates>
+				<ItemTemplate name="myCell" height="50">
+					<TextField bindId="bindField" class="bindField" />
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="listSection">
+			</ListSection>
+		</ListView>
 	</Window>
 </Alloy>
