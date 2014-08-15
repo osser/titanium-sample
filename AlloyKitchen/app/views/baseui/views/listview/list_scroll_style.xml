@@ -1,4 +1,8 @@
 <Alloy>
 	<Window class="container" title="Scroll Indicator Style">
+		<ListView id="listView" onItemclick="listView_itemclick">
+			<ListSection id="listSection" headerTitle="Scroll Indicator Styles">
+			</ListSection>
+		</ListView>
 	</Window>
 </Alloy>
