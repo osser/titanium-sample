@@ -15,10 +15,10 @@
 				<ListItem title="Keyboard Behavior" formid="list_kb" platform="ios" />
 			</ListSection>
 			<ListSection headerTitle="List API - Section Management">
-				<ListItem title="Append Section" />
-				<ListItem title="Delete Section" />
-				<ListItem title="Insert Section" />
-				<ListItem title="Replace Section" />
+				<ListItem title="Append Section" formid="list_sectionappend" />
+				<ListItem title="Delete Section" formid="list_sectiondelete" />
+				<ListItem title="Insert Section" formid="list_sectioninsert" />
+				<ListItem title="Replace Section" formid="list_sectionreplace" />
 			</ListSection>
 			<ListSection headerTitle="Section API - Item Management">
 				<ListItem title="Set Items" />

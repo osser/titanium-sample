@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" title="Append Section">
+		<Button id="btnAppend" title="Append Section" onClick="btnAppend_click" />
+		<ListView id="listView">
+			<ListSection headerTitle="Default Section">
+				<ListItem title="Default Item 1" />
+				<ListItem title="Default Item 2" />
+				<ListItem title="Default Item 3" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

@@ -1,0 +1,14 @@
+".container": {
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+"#btnAppend": {
+	backgroundColor: '#2b5797',
+	color: 'white',
+	width: 200,
+	height: 36,
+	borderRadius: 3
+}
+"ListItem[platform=android]":{
+	color: 'red'
+}

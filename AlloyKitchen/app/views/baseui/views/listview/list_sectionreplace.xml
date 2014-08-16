@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" title="Replace Section">
+		<ListView id="listView" onItemclick="listView_itemclick">
+		</ListView>
+	</Window>
+</Alloy>
