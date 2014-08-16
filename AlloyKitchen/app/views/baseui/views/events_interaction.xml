@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Events Interaction" onClick="form_click">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<Label id="lblWin" />
 		<Label id="lblBox" />
 		<Label id="lblLabel" />

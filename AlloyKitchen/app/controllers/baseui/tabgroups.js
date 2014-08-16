@@ -92,3 +92,17 @@ var btnSwitchCustomization_click = function(e) {
         $.btnSwitchCustomization.setTitle('Switch off');
     }
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/tabgroups',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

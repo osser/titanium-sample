@@ -19,3 +19,17 @@ var form_click = function(e) {
         $.lblWin.setText('click on window');
     }, 2000);
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/events_interaction',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

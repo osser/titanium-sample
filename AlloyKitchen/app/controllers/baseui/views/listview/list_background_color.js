@@ -60,3 +60,17 @@ var btnNext_click = function(e) {
     }
     $.scrollView.currentPage = page;
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/listview/list_background_color',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

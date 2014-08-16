@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Background Color">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<Button id="btnPrev" onClick="btnPrev_click" />
 		<Button id="btnNext" onClick="btnNext_click" />
 		<Label id="lblTitle" />

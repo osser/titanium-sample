@@ -268,10 +268,6 @@ var btnOpenToolbar_click = function(e) {
     w.open();
 };
 
-var btnRight_click = function(e) {
-    $.windowstandalone.close();
-};
-
 var btnOpenWin1_click = function(e) {
     var win = Ti.UI.createWindow({
         backgroundColor : '#369'
@@ -347,3 +343,23 @@ var btnOpenWin3_click = function(e) {
         mediaTypes : [Ti.Media.MEDIA_TYPE_VIDEO, Ti.Media.MEDIA_TYPE_PHOTO]
     });
 };
+
+function showSource(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/windowstandalone',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};
+
+var btnRight_click = function(e) {
+    showSource(e);
+    //$.windowstandalone.close();
+};
+

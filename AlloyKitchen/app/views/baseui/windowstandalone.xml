@@ -1,8 +1,7 @@
 <Alloy>
 	<Window class="container" title="Window Standalone">
 		<RightNavButton platform="ios">
-			<Button systemButton="STOP" onClick="btnRight_click">
-			</Button>
+			<Button image="common/allsize/cmd16.png" onClick="btnRight_click" />
 		</RightNavButton>
 		<View>
 			<Button id="btnOpenPlain" onClick="btnOpenPlain_click">

@@ -1,5 +1,11 @@
 <Alloy>
 	<Window title="Base UI" class="container">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<ListView onItemclick="lv_itemclick" separatorColor="#eff4ff">
 			<ListSection>
 				<ListItem title="Tab Groups" formid="tabgroups" />

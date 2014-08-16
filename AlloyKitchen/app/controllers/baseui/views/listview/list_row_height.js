@@ -73,3 +73,16 @@ var args = arguments[0] || {};
 
 })();
 
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/listview/list_row_height',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

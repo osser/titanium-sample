@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Row Height">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<ListView id="listView">
 			<ListSection id="listSection"></ListSection>
 		</ListView>

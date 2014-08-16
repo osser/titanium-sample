@@ -1,5 +1,11 @@
 <Alloy>
 	<Window id="frmWin" class="container" title="Scroll To">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<Label id="lblInfo">Click Button. See me scroll</Label>
 		<Button id="btnScrollToRandom" title="Scroll To Random" top="0" color="blue" onClick="btnScrollToRandom_click" />
 		<ListView id="listView"></ListView>

@@ -18,3 +18,17 @@ var lv_itemclick = function(e) {
         alert(item.properties.title);
     }
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/listviews',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

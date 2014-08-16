@@ -45,3 +45,17 @@ var btnScrollToRandom_click = function(e) {
     else
         $.listView.scrollToItem(sectionIndex, itemIndex);
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/listview/list_scrollto',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

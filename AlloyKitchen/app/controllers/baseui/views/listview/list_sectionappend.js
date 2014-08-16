@@ -33,3 +33,17 @@ var btnAppend_click = function(e) {
     $.listView.scrollToItem(appendCount, 2);
     appendCount++;
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/listview/list_sectionappend',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

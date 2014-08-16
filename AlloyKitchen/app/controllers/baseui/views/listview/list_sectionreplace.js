@@ -28,7 +28,7 @@ function getInitSection() {
                 title : 'Replace',
                 itemId : '1',
                 height : 44,
-                color: '#2b5797'
+                color : '#2b5797'
             }
         }];
         var section = Ti.UI.createListSection({
@@ -46,5 +46,19 @@ var listView_itemclick = function(e) {
     if (e.itemId == '1') {
         $.listView.replaceSectionAt(e.sectionIndex, getSection(replaceCount));
         replaceCount++;
+    }
+};
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/views/listview/list_sectionreplace',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
     }
 };

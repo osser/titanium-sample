@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Section Style">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<ListView onItemclick="listView_itemclick">
 			<ListSection id="listSection" headerTitle="SELECTION STYLES"></ListSection>
 		</ListView>

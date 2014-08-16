@@ -1,12 +1,18 @@
 <Alloy>
 	<Window title="Mashups" class="container">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<ListView onItemclick="lv_itemclick">
 			<ListSection>
-				<ListItem title="Twitter"></ListItem>
-				<ListItem title="Facebook"></ListItem>
-				<ListItem title="YQL"></ListItem>
-				<ListItem title="RSS" platform="ios"></ListItem>
-				<ListItem title="SOAP"></ListItem>
+				<ListItem title="Twitter" />
+				<ListItem title="Facebook" />
+				<ListItem title="YQL" />
+				<ListItem title="RSS" platform="ios" />
+				<ListItem title="SOAP" />
 			</ListSection>
 		</ListView>
 	</Window>

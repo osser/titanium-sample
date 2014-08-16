@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Allow Selection Behavior">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<Button id="btn1" title="Toggle Scroll To Top" onClick="btn1_click" />
 		<Button id="btn2" title="Toggle Allows Selection" onClick="btn2_click" />
 		<Label id="lblStatus">

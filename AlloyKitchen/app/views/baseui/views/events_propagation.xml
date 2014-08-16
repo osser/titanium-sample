@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Events Propagation" text="win" onClick="form_click">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<View id="vA" onClick="view_click" text="vA">
 			<Label text="A" />
 		</View>

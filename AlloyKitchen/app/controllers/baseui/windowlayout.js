@@ -15,3 +15,17 @@ var txtLastName_click = function(e) {
 var btnSave_click = function(e) {
     alert($.txtFirstName.getValue() + ", " + $.txtLastName.getValue());
 };
+
+var showSource = function(e) {
+    //alert('showSource');
+    var webshow = Alloy.createController('webshow', {
+        sourceUrl : 'baseui/windowlayout',
+    }).getView();
+
+    if (OS_IOS) {
+        args.parentTab.open(webshow);
+    }
+    if (OS_ANDROID) {
+        webshow.open();
+    }
+};

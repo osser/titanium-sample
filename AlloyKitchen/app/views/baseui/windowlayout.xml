@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Window Layout">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<View onClick="view_click">
 			<Label>
 				First Name

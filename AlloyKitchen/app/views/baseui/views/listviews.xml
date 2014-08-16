@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="ListViews">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<ListView headerTitle="This is a list view too." separatorColor="#00a300" onItemclick="lv_itemclick">
 			<ListSection headerTitle="Basic Functions">
 				<ListItem title="Build in templates" formid="list_basic" />

@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container" title="Scroll Indicator Style">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
 		<ListView id="listView" onItemclick="listView_itemclick">
 			<ListSection id="listSection" headerTitle="Scroll Indicator Styles">
 			</ListSection>
