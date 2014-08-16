@@ -1,3 +1,10 @@
 ".container": {
-	backgroundColor: '#eff4ff'
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+"#btnStartTest":{
+	width: '80%',
+	backgroundColor: '#9f00a7',
+	color: 'white',
+	borderRadius: 5
 }
