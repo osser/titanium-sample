@@ -27,13 +27,13 @@
 				<ListItem title="Replace Section" formid="list_sectionreplace" />
 			</ListSection>
 			<ListSection headerTitle="Section API - Item Management">
-				<ListItem title="Set Items" />
-				<ListItem title="Append Items" />
-				<ListItem title="Insert Items" />
-				<ListItem title="Replace Items" />
-				<ListItem title="Delete Items" />
-				<ListItem title="Update Items" />
-				<ListItem title="Get Items (otherData)" />
+				<ListItem title="Set Items" formid="list_itemsset" />
+				<ListItem title="Append Items" formid="list_itemsappend" />
+				<ListItem title="Insert Items" formid="list_itemsinsert" />
+				<ListItem title="Replace Items" formid="list_itemsreplace" />
+				<ListItem title="Delete Items" formid="list_itemsdelete" />
+				<ListItem title="Update Items" formid="list_itemsupdate" />
+				<ListItem title="Get Items (otherData)" formid="list_itemsget" />
 			</ListSection>
 			<ListSection headerTitle="List View eventing. Run in order">
 				<ListItem title="Sanity Check" />
