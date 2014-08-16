@@ -1,10 +1,14 @@
 <Alloy>
-	<Window class="container" title="Set Items">
+	<Window class="container" title="Set Items" onClose="frm_close">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Button id="btnStartTest" onClick="btnStartTest_click" title="Start Test"></Button>
+		<ListView id="listView">
+			<ListSection id="listSection"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>

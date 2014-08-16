@@ -27,7 +27,7 @@
 				<ListItem title="Replace Section" formid="list_sectionreplace" />
 			</ListSection>
 			<ListSection headerTitle="Section API - Item Management">
-				<ListItem title="Set Items" formid="list_itemsset" />
+				<ListItem title="Set Items" formid="list_itemsset" platform="ios" />
 				<ListItem title="Append Items" formid="list_itemsappend" />
 				<ListItem title="Insert Items" formid="list_itemsinsert" />
 				<ListItem title="Replace Items" formid="list_itemsreplace" />
