@@ -6,5 +6,15 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ListView id="listView" onItemclick="listView_itemclick">
+			<Templates>
+				<ItemTemplate name="myCell" height="60">
+					<Label bindId="mainLabel" class="mainLabel"></Label>
+					<Label bindId="childLabel" class="childLabel"></Label>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="listSection1" headerTitle="Section1"></ListSection>
+			<ListSection id="listSection2" headerTitle="Section2"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>

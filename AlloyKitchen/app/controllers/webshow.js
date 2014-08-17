@@ -6,3 +6,8 @@ var args = arguments[0] || {};
     //$.webView.url = 'https://github.com/osser/titanium-sample/blob/master/AlloyKitchen/app/views/' + args.sourceUrl + '.xml';
     $.webView.url = 'https://github.com/osser/titanium-sample/blob/master/AlloyKitchen/app/controllers/' + args.sourceUrl + '.js';
 })();
+
+var frm_close = function(e) {
+    $.webView = null;
+    $.webshow = null;
+};

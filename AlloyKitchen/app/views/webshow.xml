@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container" title="Alloy Kitchen Source">
+	<Window class="container" title="Alloy Kitchen Source" onClose="frm_close">
 		<WebView id="webView"></WebView>
 	</Window>
 </Alloy>
