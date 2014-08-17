@@ -1,3 +1,27 @@
 ".container": {
 	backgroundColor: '#eff4ff'
 }
+
+".mainLabel":{
+	color: '#576996',
+	font: {
+		fontFamily: 'Arial',
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	width: Ti.UI.FILL,
+	height: 30,
+	top: 0
+}
+
+".childLabel":{
+	color: '#576996',
+	font: {
+		fontFamily: 'Arial',
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	width: Ti.UI.FILL,
+	height: 30,
+	top: 30
+}

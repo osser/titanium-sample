@@ -13,7 +13,7 @@
 					<Label bindId="childLabel" class="childLabel"></Label>
 				</ItemTemplate>
 			</Templates>
-			<ListSection id="listSection"></ListSection>
+			<ListSection id="listSection" headerTitle="Section Header"></ListSection>
 		</ListView>
 	</Window>
 </Alloy>
