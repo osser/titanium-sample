@@ -36,10 +36,10 @@
 				<ListItem title="Get Items (otherData)" formid="list_itemsget" />
 			</ListSection>
 			<ListSection headerTitle="List View eventing. Run in order">
-				<ListItem title="Sanity Check" />
-				<ListItem title="Event Bubbling" />
-				<ListItem title="Child Events" />
-				<ListItem title="itemclick + child click" />
+				<ListItem title="Sanity Check" formid="list_eventsanity" />
+				<ListItem title="Event Bubbling" formid="list_eventbubble" />
+				<ListItem title="Child Events" formid="list_eventchild" />
+				<ListItem title="itemclick + child click" formid="list_eventchild2" />
 			</ListSection>
 			<ListSection headerTitle="List View Performance">
 				<ListItem title="Remote Images in ListView" />
