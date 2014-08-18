@@ -4,3 +4,15 @@
 "#listView": {}
 
 "#listSection": {}
+
+".cellLabel": {
+	color: '#576996',
+	highlightedColor: 'white',
+	font: {
+		fontFamily: 'Arial',
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}

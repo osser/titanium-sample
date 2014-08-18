@@ -1,29 +1,28 @@
 var args = arguments[0] || {};
 
 (function() {
-    var myTemplate = {
-        properties : {
-            height : 60
-        },
-        childTemplates : [{
-            type : 'Ti.UI.Label',
-            bindId : 'cellLabel',
-            properties : {
-                color : 'red',
-                highlightedColor : 'white',
-                font : {
-                    fontSize : 14,
-                    fontWeight : 'bold'
-                },
-                width : Ti.UI.FILL,
-                height : Ti.UI.FILL
-            }
-        }]
-    };
-
-    $.listView.templates = {
-        'myCell' : myTemplate
-    };
+    // var myTemplate = {
+    // properties : {
+    // height : 60
+    // },
+    // childTemplates : [{
+    // type : 'Ti.UI.Label',
+    // bindId : 'cellLabel',
+    // properties : {
+    // color : 'red',
+    // highlightedColor : 'white',
+    // font : {
+    // fontSize : 14,
+    // fontWeight : 'bold'
+    // },
+    // width : Ti.UI.FILL,
+    // height : Ti.UI.FILL
+    // }
+    // }]
+    // };
+    // $.listView.templates = {
+    // 'myCell' : myTemplate
+    // };
 
     var data = [{
         template : Ti.UI.LIST_ITEM_TEMPLATE_DEFAULT,

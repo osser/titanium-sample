@@ -7,6 +7,11 @@
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
 		<ListView id="listView">
+			<Templates>
+				<ItemTemplate name="myCell" height="60">
+					<Label bindId="cellLabel" class="cellLabel"></Label>
+				</ItemTemplate>
+			</Templates>
 			<ListSection id="listSection"></ListSection>
 		</ListView>
 	</Window>
