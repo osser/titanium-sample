@@ -1,10 +1,22 @@
 <Alloy>
-	<Window class="container" title="Event Bubbling">
+	<Window id="frmWin" class="container" title="Event Bubbling" tintColor="orange">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Label id="lblInfo"></Label>
+		<Button id="btnUnderstand" onClick="btnUnderstand_click" title="I understand"></Button>
+		<ListView id="listView" defaultItemTemplate="myCell" visible="false">
+			<Templates>
+				<ItemTemplate name="myCell" onClick="clickHandler">
+					<Button title="Button 0" bindId="ZERO" left="5"></Button>
+					<Button title="Button 1" right="5"></Button>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section0" headerTitle="Section 0"></ListSection>
+			<ListSection id="section1" headerTitle="Section 1"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>

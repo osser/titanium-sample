@@ -1,3 +1,7 @@
 ".container": {
-	backgroundColor: '#eff4ff'
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+"#btnUnderstand": {
+	color: 'blue'
 }
