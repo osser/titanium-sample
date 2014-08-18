@@ -6,5 +6,10 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Label>Check for sanity of itemclick. Tests sectionIndex, itemIndex, itemId.\nOn iOS also checks for accessoryClicked property</Label>
+		<ListView separatorColor="blue" onItemclick="listView_itemclick">
+			<ListSection id="section0" headerTitle="Section 0"></ListSection>
+			<ListSection id="section1" headerTitle="Section 1"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>
