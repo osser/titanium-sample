@@ -1,3 +1,45 @@
 ".container": {
 	backgroundColor: '#eff4ff'
 }
+".taskLabel": {
+	left: 0,
+	width: '45%'
+}
+
+".taskTrack": {
+	left: '45%',
+	width: '45%',
+	min: 0,
+	max: 1
+}
+
+".taskLabel1": {
+	left: 0,
+	width: '50%'
+}
+
+".bindField":{
+	right: 0,
+	width: '50%',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	color: 'black',
+	backgroundColor: 'lightgray',
+	value: ''
+}
+
+".taskLabel2": {
+	left: 0,
+	width: '60%'
+}
+
+".taskSwitch": {
+	right: 10
+}
+
+"#section0": {}
+
+"#section1": {}
+
+"#section2": {}
+
+"#section3": {}

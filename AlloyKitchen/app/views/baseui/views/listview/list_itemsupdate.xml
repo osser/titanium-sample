@@ -1,10 +1,30 @@
 <Alloy>
-	<Window class="container" title="Update Items">
+	<Window id="frmWin" class="container" title="Update Items" tintColor="black">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ListView onItemclick="listView_itemclick">
+			<Templates>
+				<ItemTemplate name="myCell" height="50">
+					<Label bindId="taskLabel" class="taskLabel"></Label>
+					<Slider bindId="taskTrack" class="taskTrack" onStop="handleSliderUpdate"></Slider>
+				</ItemTemplate>
+				<ItemTemplate name="myCell1" height="50">
+					<Label bindId="taskLabel" class="taskLabel1"></Label>
+					<TextField bindId="bindField" class="bindField" onBlur="handleKBUpdate" onReturn="handleKBUpdate"></TextField>
+				</ItemTemplate>
+				<ItemTemplate name="myCell2" height="50">
+					<Label bindId="taskLabel" class="taskLabel2"></Label>
+					<Switch bindId="taskSwitch" class="taskSwitch" onChange="handleSwitchChangeEvent"></Switch>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section0" headerTitle="DATA ENTRY"></ListSection>
+			<ListSection id="section1" headerTitle="TO DO LIST"></ListSection>
+			<ListSection id="section2" headerTitle="TASK PROGRESS"></ListSection>
+			<ListSection id="section3" headerTitle="GO / NOGO"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>
