@@ -1,4 +1,17 @@
 
 ".container": {
-	backgroundColor: '#eff4ff'
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+
+".ZERO":{
+	title: 'Button 0',
+	left: 5,
+	color:'blue'
+}
+".label1":{
+	text: 'Label 1',
+	right: 5,
+	backgroundColor: 'red',
+	color: 'white',
 }

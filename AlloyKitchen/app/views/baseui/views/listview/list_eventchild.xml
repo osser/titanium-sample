@@ -1,10 +1,22 @@
 <Alloy>
-	<Window class="container" title="Child Events">
+	<Window id="frmWin" class="container" title="Child Events">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Label id="lblInfo" />
+		<Button id="btnUnderstand" onClick="btnUnderstand_click" />
+		<ListView id="listView" defaultItemTemplate="myCell" visible="false">
+			<Templates>
+				<ItemTemplate name="myCell">
+					<Button bindId="ZERO" class="ZERO" onClick="clickHandler" />
+					<Label class="label1" onClick="clickHandler" />
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section0" headerTitle="Section0" />
+			<ListSection id="section1" headerTitle="Section1" />
+		</ListView>
 	</Window>
 </Alloy>

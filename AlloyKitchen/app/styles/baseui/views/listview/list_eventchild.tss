@@ -1,4 +1,25 @@
-
 ".container": {
-	backgroundColor: '#eff4ff'
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+"#lblInfo":{
+	text: 'This is a modified version of the bubbles test. The events are added to the child template.\nWe are using a label and not a button which makes a difference on iOS.\nThe template defines two children. Button 0 has bindId(ZERO), Label 1 has no bindId.\nThe first row in each section has no itemId, the second row does (ROW 1).\nExpected child event handlers, gets right section, sectionIndex, itemIndex, itemId (if availabe) and bindId(if available)\nENSURE PARITY'
+}
+"#btnUnderstand":{
+	top: 10,
+	title: 'I understand',
+	color: 'purple'
+}
+
+".ZERO": {
+	title: 'Button 0',
+	left: 5,
+	color: 'green'
+}
+
+".label1": {
+	text: 'Label 1',
+	right: 5,
+	backgroundColor: 'red',
+	color: 'white'
 }
