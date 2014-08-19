@@ -42,26 +42,26 @@
 				<ListItem title="itemclick + child click" formid="list_eventchild2" />
 			</ListSection>
 			<ListSection headerTitle="List View Performance">
-				<ListItem title="Remote Images in ListView" />
-				<ListItem title="Contacts" />
+				<ListItem title="Remote Images in ListView" formid="list_performance_remote_images" />
+				<ListItem title="Contacts" formid="list_performance_contacts" />
 			</ListSection>
 			<ListSection headerTitle="V2 UI Enhancements">
-				<ListItem title="Item Separrators" />
-				<ListItem title="Custom Headers&Footers" />
-				<ListItem title="Custom Backgrounds" />
-				<ListItem title="Select & Deselect Item" platform="ios" />
-				<ListItem title="Misc UI" platform="ios" />
-				<ListItem title="Pull View" platform="ios" />
+				<ListItem title="Item Separrators" formid="list_v2_custom_separator" />
+				<ListItem title="Custom Headers&Footers" formid="list_v2_custom_header_footer" />
+				<ListItem title="Custom Backgrounds" formid="list_v2_custom_backgrounds" />
+				<ListItem title="Select & Deselect Item" formid="list_v2_select_deselect" platform="ios" />
+				<ListItem title="Misc UI" formid="list_v2_ui_misc" platform="ios" />
+				<ListItem title="Pull View" formid="list_v2_ui_pull" platform="ios" />
 			</ListSection>
 			<ListSection headerTitle="V2 Editing Support" platform="ios">
-				<ListItem title="Delete Rows" />
-				<ListItem title="Recorder Rows" />
+				<ListItem title="Delete Rows" formid="list_v2_delete_rows" />
+				<ListItem title="Recorder Rows" formid="list_v2_move_rows" />
 			</ListSection>
 			<ListSection headerTitle="V2 Search & Index Support">
-				<ListItem title="Basic Search (searchView)" />
-				<ListItem title="New Search API (searchText)" />
-				<ListItem title="Fun with searchText" platform="ios" />
-				<ListItem title="Index Bar (sectionIndex Titles)" platform="ios" />
+				<ListItem title="Basic Search (searchView)" formid="list_v2_search_searchview" />
+				<ListItem title="New Search API (searchText)" formid="list_v2_search_searchtext" />
+				<ListItem title="Fun with searchText" formid="list_v2_search_searchtext2" platform="ios" />
+				<ListItem title="Index Bar (sectionIndex Titles)" formid="list_v2_index_bar" platform="ios" />
 			</ListSection>
 		</ListView>
 	</Window>

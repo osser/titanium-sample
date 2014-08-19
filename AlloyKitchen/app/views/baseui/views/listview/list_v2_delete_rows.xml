@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container" title="Delete Rows">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
+	</Window>
+</Alloy>
