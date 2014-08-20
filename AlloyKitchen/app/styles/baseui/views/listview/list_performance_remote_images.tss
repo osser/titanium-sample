@@ -1,4 +1,33 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical'
+}
+"#btnShowMe": {
+	borderWidth: 1,
+	width: Titanium.UI.FILL,
+	backgroundColor: '#1e7145',
+	color: '#eff4ff'
+}
+
+".avatar": {
+	left: 10,
+	width: 50,
+	height: 50
+}
+
+".info": {
+	color: 'white',
+	font: {
+		fontFamily: 'Arial',
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	left: 70,
+	top: 5,
+	bottom: 5,
+	wordWrap: true,
+	ellipsize: true,
+	width: Ti.UI.FILL,
+	height: 50
 }
