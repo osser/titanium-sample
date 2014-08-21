@@ -1,10 +1,23 @@
 <Alloy>
-	<Window class="container" title="Contacts">
+	<Window id="frmWin" class="container" title="Contacts">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Label id="lblInfo" />
+		<Label id="lblDesc" />
+		<Button id="btnShowMe" class="btnShowMe" title="Show Me" onClick="btnShowMe_click" />
+		<ListView id="listView" defaultItemTemplate="template" visible="false">
+			<Templates>
+				<ItemTemplate name="template" height="60" backgroundColor="black">
+					<ImageView bindId='avatar' class="avatar" />
+					<Label bindId='info' class="info" />
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section0" headerTitle="Who\'s in my contacts">
+			</ListSection>
+		</ListView>
 	</Window>
 </Alloy>

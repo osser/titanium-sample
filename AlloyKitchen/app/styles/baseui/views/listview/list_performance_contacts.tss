@@ -1,4 +1,40 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical'
+}
+"#lblInfo":{
+	top: 0
+}
+
+"#lblDesc": {
+	top: 0,
+	borderWidth: 1,
+	borderColor: 'green',
+	borderRadius: 5,
+	color: 'blue'
+}
+
+".btnShowMe": {
+	top: 10
+}
+".avatar":{
+	left: 10,
+	width: 50,
+	height: 50
+}
+".info":{
+	color: 'white',
+	font: {
+		fontFamily: 'Arial',
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	left: 70,
+	top: 5,
+	bottom: 5,
+	wordWrap: true,
+	ellipsize: true,
+	width: Ti.UI.FILL,
+	height: 50
 }
