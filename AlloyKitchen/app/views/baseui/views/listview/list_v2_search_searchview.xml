@@ -1,10 +1,24 @@
 <Alloy>
-	<Window class="container" title="Basic Search (searchView)">
+	<Window id="frmWin" class="container" title="Basic Search (searchView)">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView" layout="vertical">
+			<Label id="lblDesc"></Label>
+			<Button id="btnUnderstand" onClick="btnUnderstand_click"></Button>
+			<Label text=" "></Label>
+		</ScrollView>
+		<ListView id="listView" onItemclick="clickHandler">
+			<SearchView>
+				<SearchBar id="searchBar"></SearchBar>
+			</SearchView>
+			<ListSection id="fruitSection" headerTitle="Fruits"></ListSection>
+			<ListSection id="vegSection" headerTitle="Vegetables"></ListSection>
+			<ListSection id="fishSection" headerTitle="Fish"></ListSection>
+			<ListSection id="animalsSection" headerTitle="Animals"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>

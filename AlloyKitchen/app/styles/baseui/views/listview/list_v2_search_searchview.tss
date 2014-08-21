@@ -2,3 +2,23 @@
 ".container": {
 	backgroundColor: 'white'
 }
+"#btnUnderstand":{
+	width: '50%',
+	backgroundColor: '#2b5797',
+	color: 'white',
+	title: '理解した'
+}
+
+"#searchBar": {
+	barColor: '#385292',
+	showCancel: false,
+	hintText: 'search'
+}
+
+"#fruitSection": {}
+
+"#vegSection": {}
+
+"#fishSection": {}
+
+"#animalsSection": {}
