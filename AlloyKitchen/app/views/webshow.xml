@@ -1,5 +1,22 @@
 <Alloy>
 	<Window class="container" title="Alloy Kitchen Source" onClose="frm_close">
+		<RightNavButton platform="ios">
+			<Button image="common/github.png" onClick="showToolBar" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Style" icon="/common/allsize/cmd16.png" onClick="btnShowStyle_click" />
+			<MenuItem title="Controller" icon="/common/allsize/cmd16.png" onClick="btnShowController_click" />
+			<MenuItem title="View" icon="/common/allsize/cmd16.png" onClick="btnShowView_click" />
+		</Menu>
 		<WebView id="webView"></WebView>
+		<Toolbar id="toolBar" visible="true" platform="ios" bottom="0" borderTop="true" borderBottom="false" tintColor="black">
+			<Items>
+				<Button id="btnShowStyle" onClick="btnShowStyle_click" title="Style" />
+				<FlexSpace/>
+				<Button id="btnShowController" onClick="btnShowController_click" title="Controller" />
+				<FlexSpace/>
+				<Button id="btnShowView" onClick="btnShowView_click" title="View" />
+			</Items>
+		</Toolbar>
 	</Window>
 </Alloy>

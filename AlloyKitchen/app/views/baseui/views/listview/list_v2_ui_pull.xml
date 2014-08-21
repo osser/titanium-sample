@@ -1,10 +1,28 @@
 <Alloy>
-	<Window class="container" title="Pull View">
+	<Window id="frmWin" class="container" title="Pull View">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView" layout="vertical">
+			<Label id="lblDesc"></Label>>
+			<Button id="btnUnderstand" onClick="btnUnderstand_click" title="理解した" borderRadius="1" width="50%" top="10" backgroundColor="#1d1d1d"></Button>
+			<Label></Label>
+		</ScrollView>
+		<ListView id="listView" onPull="listView_pull" onPullend="listView_pullend">
+			<PullView>
+				<View id="tableHeader">
+					<ActivityIndicator id="actInd"></ActivityIndicator>
+					<ImageView id="imageArrow"></ImageView>
+					<Label id="labelStatus"></Label>
+					<Label id="labelLastUpdated"></Label>
+					<View id="border"></View>
+				</View>
+			</PullView>
+			<ListSection id="fruitSection" headerTitle="Fruits"></ListSection>
+		</ListView>
+		<Label id="eventStatus"></Label>
 	</Window>
 </Alloy>

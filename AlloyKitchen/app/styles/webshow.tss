@@ -3,3 +3,11 @@
 	backgroundColor: 'blue'
 }
 "#webView": {}
+
+"#btnShowStyle": {}
+
+"#btnShowController": {}
+
+"#btnShowView": {}
+
+"#toolBar": {}
