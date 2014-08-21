@@ -1,4 +1,34 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical'
+}
+"#container": {
+	layout: 'horizontal',
+	height: Titanium.UI.SIZE
+}
+
+"#actionContainer": {
+	layout: 'horizontal',
+	height: Titanium.UI.SIZE
+}
+
+"#b1": {
+	width: '45%',
+	left: '2%',
+	borderWidth: 1,
+	color: 'blue',
+	title: 'Change Style'
+}
+
+"#b2": {
+	width: '45%',
+	left: '4%',
+	borderWidth: 1,
+	color: 'purple',
+	title: 'Change Color'
+}
+"#lblStatus":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
 }

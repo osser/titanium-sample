@@ -6,5 +6,15 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<View id="container">
+			<View id="actionContainer">
+				<Button id="b1" onClick="b1_click" />
+				<Button id="b2" onClick="b2_click" />
+			</View>
+			<Label id="lblStatus" text="" />
+		</View>
+		<ListView id="listView">
+			<ListSection id="section0"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>
