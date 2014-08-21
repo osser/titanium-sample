@@ -9,7 +9,7 @@
 			<MenuItem title="View" icon="/common/allsize/cmd16.png" onClick="btnShowView_click" />
 		</Menu>
 		<WebView id="webView"></WebView>
-		<Toolbar id="toolBar" visible="true" platform="ios" bottom="0" borderTop="true" borderBottom="false" tintColor="black">
+		<Toolbar id="toolBar" visible="true" platform="ios" bottom="0" borderTop="true" borderBottom="false" tintColor="white" barColor="#00a300" height="20">
 			<Items>
 				<Button id="btnShowStyle" onClick="btnShowStyle_click" title="Style" />
 				<FlexSpace/>

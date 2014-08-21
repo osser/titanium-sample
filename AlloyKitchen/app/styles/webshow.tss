@@ -10,4 +10,9 @@
 
 "#btnShowView": {}
 
-"#toolBar": {}
+"#toolBar": {
+	font:{
+		fontSize: 12
+	},
+	color: 'blue'
+}
