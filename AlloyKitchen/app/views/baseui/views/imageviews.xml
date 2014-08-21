@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container" title="ImageViews">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
+		<ListView onItemclick="listView_itemclick">
+			<ListSection headerTitle="List">
+				<ListItem title="Basic" formid="" />
+				<ListItem title="Image File" formid="" />
+				<ListItem title="Remote Image" formid="" />
+				<ListItem title="Image Scaling" formid="" />
+				<ListItem title="Image View Positioning" formid="" />
+				<ListItem title="Animated" formid="" />
+				<ListItem title="Image View Encoding" formid="" />
+				<ListItem title="Image Blob" formid="" platform="ios" />
+				<ListItem title="Image Masking" formid="" platform="ios" />
+				<ListItem title="Image Toolbar" formid="" platform="ios" />
+				<ListItem title="Image Rapid Update" formid="" />
+				<ListItem title="Android drawable resource" formid="" platform="android" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

@@ -1,0 +1,8 @@
+
+".container": {
+	backgroundColor: '#eff4ff'
+}
+"ListItem":{
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
+	height: 40
+}

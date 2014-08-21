@@ -12,7 +12,7 @@
 					<ListItem title="Events Propagation" formid="events_propagation" />
 					<ListItem title="Events Interaction" formid="events_interaction" />
 					<ListItem title="List View" formid="listviews" />
-					<ListItem title="Image Views" />
+					<ListItem title="Image Views" formid="imageviews" />
 					<ListItem title="Scroll Views" />
 					<ListItem title="Table Views" />
 					<ListItem title="Web Views" />
