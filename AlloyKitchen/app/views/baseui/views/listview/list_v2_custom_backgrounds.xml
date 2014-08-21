@@ -1,10 +1,17 @@
 <Alloy>
-	<Window class="container" title="Custom Backgrounds">
+	<Window id="frmWin" class="container" title="Custom Backgrounds">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Button id="btnToggleListView" onClick="btnToggleListView_click"></Button>
+		<ListView id="listview1">
+			<ListSection id="section1" headerTitle="Section1"></ListSection>
+		</ListView>
+		<ListView id="listview2">
+			<ListSection id="section2" headerTitle="Section2"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>

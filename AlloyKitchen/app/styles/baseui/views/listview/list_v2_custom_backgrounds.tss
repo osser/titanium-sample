@@ -1,4 +1,21 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: '#eff4ff',
+	layout: 'vertical'
+}
+"#btnToggleListView": {
+	top: 10,
+	left: 20,
+	right: 20,
+	title: 'Toggle ListView',
+	backgroundColor: '#1e7145',
+	color: 'white'
+}
+
+"#listview1": {
+	top: 10
+}
+
+"#listview2": {
+	top: 10
 }
