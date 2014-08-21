@@ -1,10 +1,22 @@
 <Alloy>
-	<Window class="container" title="Fun with searchText">
+	<Window id="frmWin" class="container" title="Fun with searchText">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView" layout="vertical">
+			<Label id="lblDesc"></Label>
+			<Button id="btnUnderstand" onClick="btnUnderstand_click" title="理解した" color="blue" width="50%" borderWidth="1"></Button>>
+			<Label></Label>
+		</ScrollView>
+		<TextField id="searchText" onChange="searchText_change"></TextField>
+		<ListView id="listView" onItemclick="clickHandler">
+			<ListSection id="fruitSection" headerTitle="Fruits"></ListSection>
+			<ListSection id="vegSection" headerTitle="Vegetables"></ListSection>
+			<ListSection id="fishSection" headerTitle="Fish"></ListSection>
+			<ListSection id="animalsSection" headerTitle="Animals"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>
