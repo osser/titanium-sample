@@ -1,4 +1,19 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical'
+}
+"#searchText": {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	color: '#336699',
+	height: 40,
+	top: 10,
+	bottom: 10,
+	left: 10,
+	right: 10,
+	font:{
+		fontSize: 20,
+		fontWeight: 'bold'
+	},
+	hintText: 'Search'
 }
