@@ -1,10 +1,16 @@
 <Alloy>
-	<Window class="container" title="Index Bar (sectionIndex Titles)">
+	<Window id="frmWin" class="container" title="Index Bar (sectionIndex Titles)">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ListView id="listView">
+			<ListSection id="fruitSection" headerTitle="Fruits"></ListSection>
+			<ListSection id="vegSection" headerTitle="Vegetables"></ListSection>
+			<ListSection id="fishSection" headerTitle="Fish"></ListSection>
+			<ListSection id="animalsSection" headerTitle="Animals"></ListSection>
+		</ListView>
 	</Window>
 </Alloy>
