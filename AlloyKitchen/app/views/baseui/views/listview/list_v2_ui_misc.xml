@@ -1,10 +1,13 @@
 <Alloy>
-	<Window class="container" title="Misc UI">
+	<Window class="container" title="Miscellaneous">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Button id="btnCanScroll" onClick="btnCanScroll_click" />
+		<Button id="btnInsets" onClick="btnInsets_click" />
+		<ListView id="listView"></ListView>
 	</Window>
 </Alloy>

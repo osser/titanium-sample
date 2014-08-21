@@ -1,4 +1,34 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical',
+	tintColor: 'black'
+}
+
+"#actionContainer":{
+	layout: 'horizontal',
+	height: Ti.UI.SIZE
+}
+
+"#listView":{
+	top: 10
+}
+
+"#btnB1": {
+	width: '45%',
+	left: '2%',
+	title: 'Select Random',
+	borderWidth: 1,
+	borderColor: 'gray',
+	borderRadius: 5
+}
+
+"#btnB2": {
+	width: '45%',
+	left: '4%',
+	title: 'Deselect',
+	borderWidth: 1,
+	borderColor: 'gray',
+	borderRadius: 5,
+	enabled: false
 }

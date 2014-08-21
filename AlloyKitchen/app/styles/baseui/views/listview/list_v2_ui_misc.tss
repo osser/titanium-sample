@@ -1,4 +1,29 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical'
+}
+"#btnCanScroll": {
+	top: 10,
+	left: 20,
+	right: 20,
+	title: 'Toggle canScroll',
+	borderWidth: 1,
+	backgroundColor: '#2b5797',
+	color: 'white'
+}
+
+"#btnInsets": {
+	left: 20,
+	right: 20,
+	top: 10,
+	title: 'Toggle insets',
+	borderWidth: 1,
+	backgroundColor: '#2b5797',
+	color: 'white'
+}
+
+"#listView":{
+	top: 10,
+	backgroundColor: 'red'
 }
