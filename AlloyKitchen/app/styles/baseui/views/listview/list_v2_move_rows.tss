@@ -1,4 +1,46 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: 'white',
+	layout: 'vertical'
+}
+"#scrollView":{
+	layout: 'vertical'
+}
+"#btnUnderstand":{
+	backgroundColor: '#1e7145',
+	color: 'white',
+	width: '50%',
+	title: '理解した'
+}
+".clicker": {
+	left: 10,
+	width: 150,
+	height: 50,
+	title: 'CLICK ME!'
+}
+
+".info": {
+	font: {
+		fontFamily: 'Arial',
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	left: 170,
+	top: 5,
+	bottom: 5,
+	wordWrap: true,
+	ellipsize: true,
+	width: Ti.UI.FILL,
+	height: 50
+}
+
+"#listView":{
+	height: '80%',
+	pruneSectionsOnEdit: false
+}
+
+"#footView": {
+	height: '20%',
+	layout: 'horizontal',
+	backgroundColor: '#ccc'
 }

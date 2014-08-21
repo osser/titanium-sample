@@ -1,10 +1,33 @@
 <Alloy>
-	<Window class="container" title="Recorder Rows">
+	<Window id="frmWin" class="container" title="Recorder Rows">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView">
+			<Label id="lblInfo"></Label>
+			<Button id="btnUnderstand" onClick="btnUnderstand_click"></Button>
+			<Label text=" "></Label>
+		</ScrollView>
+		<ListView id="listView" defaultItemTemplate="myCell" onItemclick="clickHandler" onMove="listView_move">
+			<Templates>
+				<ItemTemplate name="myCell" height="60">
+					<Button bindId='clicker' class="clicker" onClick="clickHandler" color="#2b5797"></Button>
+					<Label bindId='info' class="info"></Label>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section1" headerTitle="Section1"></ListSection>
+			<ListSection id="section2" headerTitle="Section2"></ListSection>
+			<ListSection id="section3" headerTitle="Section3"></ListSection>
+			<ListSection id="section4" headerTitle="Section4"></ListSection>
+			<ListSection id="section5" headerTitle="Section5"></ListSection>
+			<ListSection id="section6" headerTitle="Section6"></ListSection>
+		</ListView>
+		<View id="footView">
+			<Button id="btnEditing" onClick="btnEditing_click" title="Toggle Editing"></Button>
+			<Label id="lblStatus" height="Ti.UI.FILL" ></Label>
+		</View>
 	</Window>
 </Alloy>
