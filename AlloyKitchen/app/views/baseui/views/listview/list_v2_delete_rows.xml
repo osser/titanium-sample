@@ -1,10 +1,33 @@
 <Alloy>
-	<Window class="container" title="Delete Rows">
+	<Window id="frmWin" class="container" title="Delete Rows">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView">
+			<Label id="lblDesc"></Label>
+			<Button id="btnUnderstand" onClick="btnUnderstand_click"></Button>
+			<Label text=" "></Label>
+		</ScrollView>
+		<ListView id="listView" defaultItemTemplate="myCell" onItemclick="clickHandler" onDelete="listView_delete">
+			<Templates>
+				<ItemTemplate name="myCell">
+					<Button bindId='clicker' class="clicker" onClick="clickHandler"></Button>
+					<Label bindId='info' class="info"></Label>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section1" headerTitle="Mixed Edit"></ListSection>
+			<ListSection id="section2" headerTitle="No Editing"></ListSection>
+			<ListSection id="section3" headerTitle="Edit All"></ListSection>
+			<ListSection id="section4" headerTitle="Mixed Edit"></ListSection>
+			<ListSection id="section5" headerTitle="No Editing"></ListSection>
+			<ListSection id="section6" headerTitle="Edit All"></ListSection>
+		</ListView>
+		<View id="bottomView">
+			<Button id="btnEditing" onClick="btnEditing_click" title="Toggle Editing"></Button>
+			<Label id="lblStatus" ></Label>
+		</View>
 	</Window>
 </Alloy>
