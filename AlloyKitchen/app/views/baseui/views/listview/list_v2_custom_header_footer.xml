@@ -6,5 +6,20 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ListView id="listView">
+			<HeaderView >
+				<View id="headerView">
+					<ImageView id="imageView" />
+					<Label id="headerLabel" />
+				</View>
+			</HeaderView>
+			<ListSection id="section0">
+			</ListSection>
+			<FooterView>
+				<View id="footerView">
+					<Label id="footerLabel" />
+				</View>
+			</FooterView>
+		</ListView>
 	</Window>
 </Alloy>

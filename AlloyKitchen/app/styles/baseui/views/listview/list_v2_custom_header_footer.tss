@@ -1,4 +1,30 @@
 
 ".container": {
-	backgroundColor: 'white'
+	backgroundColor: '#eff4ff'
+}
+"#headerView": {
+	layout: 'horizontal',
+	height: Ti.UI.SIZE
+}
+
+"#footerView": {
+	height: Titanium.UI.SIZE
+}
+
+"#imageView": {
+	left: 5,
+	width: 50,
+	height: 50,
+	image: '/apple_logo.jpg'
+}
+
+"#headerLabel": {
+	left: 5,
+	width: Ti.UI.FILL,
+	text: 'Custom header with an image and a label'
+}
+
+"#footerLabel": {
+	text: 'I am a custom list footer (just a label) but with color',
+	color: 'red'
 }
