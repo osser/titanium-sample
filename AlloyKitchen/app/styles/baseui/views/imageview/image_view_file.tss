@@ -1,4 +1,15 @@
 
-".container" : {
-  
+".container": {}
+
+"#imageView":{
+	width: 24,
+	height: 24,
+	top: 100
+}
+"#lblInfo":{
+	text: 'Click Image of Apple Logo',
+	bottom: 20,
+	width: 'auto',
+	height: 'auto',
+	color: '#999'
 }
