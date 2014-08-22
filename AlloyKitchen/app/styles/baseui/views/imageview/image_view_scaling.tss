@@ -1,4 +1,16 @@
 
-".container" : {
-  
+".container": {}
+
+"#imageView":{
+	image: 'http://static.appcelerator.com/images/header/appc_logo.png',
+	width: 325
+}
+"#lblInfo":{
+	text: 'fetching remote image...',
+	bottom: 30,
+	color: '#999',
+	height: 100,
+	right: 10,
+	left: 10,
+	textAlign: 'center'
 }
