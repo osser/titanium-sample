@@ -1,4 +1,4 @@
-titanium-sample
+Appcelerator Alloy Kitchen Sink Project
 ===============
 
-appcelerator titanium sample
+appcelerator titanium alloy mvc framework sample
