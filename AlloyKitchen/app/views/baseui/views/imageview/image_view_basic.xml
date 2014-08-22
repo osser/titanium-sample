@@ -1,4 +1,12 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window id="frmWin" class="container" title="Basic">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="/common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
+		<ImageView id="imageView" onLoad="imageView_load" onClick="imageView_click"></ImageView>
+		<Label id="lblInfo"></Label>
+	</Window>
 </Alloy>

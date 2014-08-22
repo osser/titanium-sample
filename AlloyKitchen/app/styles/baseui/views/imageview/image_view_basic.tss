@@ -1,4 +1,18 @@
 
-".container" : {
-  
+".container": {}
+
+"#imageView":{
+	image: 'http://static.appcelerator.com/images/header/appc_logo.png',
+	width: 261,
+	height: 178,
+	top: 20
+}
+
+"#lblInfo":{
+	text: 'Click Image',
+	bottom: 30,
+	color: '#999',
+	height: 'auto',
+	width: 300,
+	textAlign: 'center'
 }

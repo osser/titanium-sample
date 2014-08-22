@@ -17,3 +17,17 @@ var showSource = function(e) {
         webshow.open();
     }
 };
+
+var imageView_load = function(e) {
+    Ti.API.info('LOAD CALLED');
+};
+
+var imageView_click = function(e) {
+    Titanium.UI.createAlertDialog({
+        title : 'Image View',
+        message : 'You clicked me!'
+    }).show();
+    $.lblInfo.text = "Try again. You shouldn't get alert and the image should be different";
+    $.imageView.image = '/common/cloud.png';
+    $.imageView.removeEventListener('click', imageView_click);
+};
