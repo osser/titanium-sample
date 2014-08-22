@@ -8,18 +8,18 @@
 		</Menu>
 		<ListView onItemclick="listView_itemclick">
 			<ListSection headerTitle="List">
-				<ListItem title="Basic" formid="" />
-				<ListItem title="Image File" formid="" />
-				<ListItem title="Remote Image" formid="" />
-				<ListItem title="Image Scaling" formid="" />
-				<ListItem title="Image View Positioning" formid="" />
-				<ListItem title="Animated" formid="" />
-				<ListItem title="Image View Encoding" formid="" />
-				<ListItem title="Image Blob" formid="" platform="ios" />
-				<ListItem title="Image Masking" formid="" platform="ios" />
-				<ListItem title="Image Toolbar" formid="" platform="ios" />
-				<ListItem title="Image Rapid Update" formid="" />
-				<ListItem title="Android drawable resource" formid="" platform="android" />
+				<ListItem title="Basic" formid="image_view_basic" />
+				<ListItem title="Image File" formid="image_view_file" />
+				<ListItem title="Remote Image" formid="image_view_remote" />
+				<ListItem title="Image Scaling" formid="image_view_scaling" />
+				<ListItem title="Image View Positioning" formid="image_view_positioning" />
+				<ListItem title="Animated" formid="image_view_animated" />
+				<ListItem title="Image View Encoding" formid="image_view_encoding" />
+				<ListItem title="Image Blob" formid="image_view_blob" platform="ios" />
+				<ListItem title="Image Masking" formid="image_mask" platform="ios" />
+				<ListItem title="Image Toolbar" formid="image_view_toolbar" platform="ios" />
+				<ListItem title="Image Rapid Update" formid="image_view_updateimages" />
+				<ListItem title="Android drawable resource" formid="image_view_resource" platform="android" />
 			</ListSection>
 		</ListView>
 	</Window>

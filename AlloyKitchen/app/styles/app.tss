@@ -1,10 +1,13 @@
+"Window":{
+	backgroundColor: '#eff4ff'
+}
 "ListItem[platform=ios formFactor=iphone]":{
 	color: "brown",
 	font: {
 		fontSize: 16,
 		fontFamily: 'Oswald-Regular'
 	}
-},
+}
 "ListItem[platform=android]":{
 	color: "blue",
 	height: 50,
@@ -12,4 +15,4 @@
 		fontSize: 16,
 		fontFamily: 'Oswald-Regular'
 	}
-},
+}
