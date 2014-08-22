@@ -1,4 +1,33 @@
 
-".container" : {
-  
+".container": {}
+"#imageView1": {
+	image: 'http://static.appcelerator.com/images/header/appc_logo.png',
+	defaultImage: '/common/cloud.png',
+	top: 20,
+	width: 100,
+	height: 100
+}
+
+"#imageView2": {
+	defaultImage: '/common/cloud.png',
+	top: 140,
+	width: 100,
+	height: 100
+}
+
+"#btnRemoteImage": {
+	title: 'Assign remote image url',
+	top: 260,
+	width: "80%",
+	color: 'white',
+	backgroundColor: '#9f00a7'
+}
+
+"#lblInfo":{
+	text: 'This is a remote image URL',
+	bottom: 30,
+	color: '#999',
+	height: 20,
+	width: 300,
+	textAlign: 'center'
 }

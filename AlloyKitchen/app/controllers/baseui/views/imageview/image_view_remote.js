@@ -17,3 +17,7 @@ var showSource = function(e) {
         webshow.open();
     }
 };
+
+var btnRemoteImage_click = function(e) {
+    $.imageView2.image = 'http://static.appcelerator.com/images/header/appc_logo.png';
+};
