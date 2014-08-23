@@ -1,7 +1,8 @@
 var args = arguments[0] || {};
 
 (function() {
-
+    $.imageView.image = 'http://appcelerator.qe.test.data.s3.amazonaws.com/KSResources/image/' + encodeURIComponent('ΜΟΥΣΙΚΗ') + '/appc_logo200.png';
+    console.log($.imageView.image);
 })();
 
 var showSource = function(e) {

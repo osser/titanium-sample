@@ -13,7 +13,7 @@
 				<ListItem title="Remote Image" formid="image_view_remote" />
 				<ListItem title="Image Scaling" formid="image_view_scaling" />
 				<ListItem title="Image View Positioning" formid="image_view_positioning" />
-				<ListItem title="Animated" formid="image_view_animated" />
+				<ListItem title="Animated" formid="image_view_animated" backgroundColor="lightgray" />
 				<ListItem title="Image View Encoding" formid="image_view_encoding" />
 				<ListItem title="Image Blob" formid="image_view_blob" platform="ios" />
 				<ListItem title="Image Masking" formid="image_mask" platform="ios" />
