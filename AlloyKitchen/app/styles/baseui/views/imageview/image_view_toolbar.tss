@@ -1,4 +1,20 @@
 
-".container" : {
-  
+".container": {}
+
+".cssTool": {
+	color: 'white',
+	backgroundColor: '#2b5797'
+}
+
+"#textField": {
+	top: 10,
+	height: 30,
+	borderWidth: 1,
+	borderRadius: 0,
+	width: '95%',
+	value: "just focus here",
+	keyboardToolbarColor: '#999',
+	keyboardToolbarHeight: 40,
+	tintColor: '#2b5797',
+	backgroundColor: 'white'
 }

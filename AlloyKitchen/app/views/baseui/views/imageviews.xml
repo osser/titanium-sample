@@ -16,7 +16,7 @@
 				<ListItem title="Animated" formid="image_view_animated" backgroundColor="lightgray" />
 				<ListItem title="Image View Encoding" formid="image_view_encoding" />
 				<ListItem title="Image Blob" formid="image_view_blob" platform="ios" />
-				<ListItem title="Image Masking" formid="image_mask" platform="ios" />
+				<ListItem title="Image Masking" formid="image_mask" platform="ios" backgroundColor="lightgray" />
 				<ListItem title="Image Toolbar" formid="image_view_toolbar" platform="ios" />
 				<ListItem title="Image Rapid Update" formid="image_view_updateimages" />
 				<ListItem title="Android drawable resource" formid="image_view_resource" platform="android" />

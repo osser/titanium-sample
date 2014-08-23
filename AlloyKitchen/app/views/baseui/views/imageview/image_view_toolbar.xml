@@ -6,5 +6,18 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<TextField id="textField">
+			<KeyboardToolbar>
+				<Toolbar barColor="#2d89ef" tintColor="white">
+					<Items>
+						<Button title="Camera" class="cssTool" onClick="camera_click"></Button>
+						<Button systemButton="Titanium.UI.iPhone.SystemButton.FLEXIBLE_SPACE"></Button>
+						<Button title="Setting" class="cssTool" onClick="setting_click"></Button>
+						<Button systemButton="Titanium.UI.iPhone.SystemButton.FLEXIBLE_SPACE"></Button>
+						<Button title="Folder" class="cssTool" onClick="folder_click"></Button>
+					</Items>
+				</Toolbar>
+			</KeyboardToolbar>
+		</TextField>
 	</Window>
 </Alloy>

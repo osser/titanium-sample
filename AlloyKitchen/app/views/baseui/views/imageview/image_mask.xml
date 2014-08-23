@@ -6,5 +6,6 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<Label>Come Soon...</Label>
 	</Window>
 </Alloy>

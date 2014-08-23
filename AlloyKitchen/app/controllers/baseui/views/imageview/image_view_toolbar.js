@@ -17,3 +17,15 @@ var showSource = function(e) {
         webshow.open();
     }
 };
+
+var camera_click = function(e) {
+    alert('camera click');
+};
+
+var folder_click = function(e) {
+    alert('folder click');
+};
+
+var setting_click = function(e) {
+	alert('setting click');
+};
