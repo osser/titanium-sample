@@ -1,4 +1,9 @@
+".container": {}
 
-".container" : {
-  
+"#imageView":{
+	height: 200,
+	width: 200,
+	duration: 100, // in milliseconds, the time before next frame is shown
+	repeatCount: 0, // 0 means animation repeats indefinitely, use > 1 to control repeat count
+	top: 30
 }

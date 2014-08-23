@@ -1,7 +1,15 @@
 var args = arguments[0] || {};
 
-(function() {
+var _WhenStillImgs = [];
+var _WhenMovingImgs = [];
+_WhenStillImgs.push('/common/Kicking00.png');
+_WhenStillImgs.push('/common/Kicking20.png');
+_WhenMovingImgs.push('/common/Kicking00.png');
+_WhenMovingImgs.push('/common/Kicking14.png');
 
+(function() {
+    $.imageView.images = _WhenStillImgs;
+    $.imageView.start();
 })();
 
 var showSource = function(e) {
@@ -16,4 +24,11 @@ var showSource = function(e) {
     if (OS_ANDROID) {
         webshow.open();
     }
+};
+
+var imageView_touchstart = function(e) {
+    Ti.API.info('I WAS CLICKED');
+    $.imageView.stop();
+    $.imageView.images = _WhenMovingImgs;
+    $.imageView.start();
 };
