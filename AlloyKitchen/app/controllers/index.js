@@ -10,5 +10,7 @@
     $.platform.parentTabGroup = $.index;
     $.mashups.parentTab = $.tabMashups;
     $.mashups.parentTabGroup = $.index;
+
+    Alloy.Globals.tabGroupImage = $.index.toImage();
 })();
 

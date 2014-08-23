@@ -28,8 +28,7 @@
 	exitOnClose: true
 },
 
-"#tabBaseUI": {
-},
+"#tabBaseUI": {},
 
 "#tabControls": {},
 
@@ -38,3 +37,5 @@
 "#tabPlatform": {},
 
 "#tabMashups": {},
+
+"#tabGroup": {}

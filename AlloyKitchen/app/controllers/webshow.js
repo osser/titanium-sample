@@ -6,8 +6,6 @@ var showurl = '';
     console.log('sourceUrl:', args.sourceUrl);
     showurl = args.sourceUrl;
     btnShowController_click(null);
-    //https://github.com/osser/titanium-sample/blob/master/AlloyKitchen/app/views/baseui/tabgroups.xml
-    //$.webView.url = 'https://github.com/osser/titanium-sample/blob/master/AlloyKitchen/app/controllers/' + args.sourceUrl + '.js';
 })();
 
 var frm_close = function(e) {
