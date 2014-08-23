@@ -13,8 +13,8 @@
 					<ListItem title="Events Interaction" formid="events_interaction" />
 					<ListItem title="List View" formid="listviews" />
 					<ListItem title="Image Views" formid="imageviews" />
-					<ListItem title="Scroll Views" />
-					<ListItem title="Table Views" />
+					<ListItem title="Scroll Views" formid="scrollviews" />
+					<ListItem title="Table Views" backgroundColor="lightgray" />
 					<ListItem title="Web Views" />
 					<ListItem title="Alert Dialog" />
 					<ListItem title="Options Dialog" />

@@ -7,7 +7,7 @@ var args = arguments[0] || {};
 var listView_itemclick = function(e) {
     var item = e.section.getItemAt(e.itemIndex);
     if (item.properties.formid) {
-        var winid = 'baseui/views/imageview/' + item.properties.formid;
+        var winid = 'baseui/views/scrollview/' + item.properties.formid;
         if (OS_IOS) {
             var win = Alloy.createController(winid, {
                 parentTab : args.parentTab
@@ -26,7 +26,7 @@ var listView_itemclick = function(e) {
 var showSource = function(e) {
     //alert('showSource');
     var webshow = Alloy.createController('webshow', {
-        sourceUrl : 'baseui/views/imageviews',
+        sourceUrl : 'baseui/views/scrollviews',
     }).getView();
 
     if (OS_IOS) {

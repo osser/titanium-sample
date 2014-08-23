@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container" title="ScrollViews">
+		<RightNavButton platform="ios">
+			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
+		</Menu>
+		<ListView onItemclick="listView_itemclick">
+			<ListSection headerTitle="List">
+				<ListItem title="Basic" formid="scroll_views_basic" />
+				<ListItem title="Scrolling Tabs" formid="scroll_views_tabs" />
+				<ListItem title="Scrollable View" formid="scroll_views_scrollable" />
+				<ListItem title="Many on a Screen" formid="scroll_views_many" />
+				<ListItem title="Scroll Views TextArea" formid="scroll_views_textareas" />
+				<ListItem title="Scrollable View w/o Clipping" formid="scroll_views_without_clipping" platform="ios" />
+				<ListItem title="Scrolling Zoom+Pinch" formid="scroll_views_scaling" platform="ios" />
+				<ListItem title="Scrolling Drag Start&End" formid="scroll_views_dragging" platform="ios" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>
