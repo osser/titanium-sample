@@ -6,5 +6,65 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<View id="leftImage"></View>
+		<View id="rightImage"></View>
+		<ScrollView id="scrollView1" onScroll="scrollView1_scroll" layout="horizontal">
+			<View class="cssView">
+				<Label class="cssLabel">1</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">2</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">3</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">4</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">5</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">6</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">7</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">8</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">9</Label>
+			</View>
+		</ScrollView>
+		<ScrollView id="scrollView2" layout="vertical">
+			<View class="cssView">
+				<Label class="cssLabel">1</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">2</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">3</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">4</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">5</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">6</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">7</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">8</Label>
+			</View>
+			<View class="cssView">
+				<Label class="cssLabel">9</Label>
+			</View>
+		</ScrollView>
 	</Window>
 </Alloy>

@@ -17,3 +17,17 @@ var showSource = function(e) {
         webshow.open();
     }
 };
+
+var scrollView1_scroll = function(e) {
+    Ti.API.info('x ' + e.x + ' y ' + e.y);
+    if (e.x > 50) {
+        $.leftImage.show();
+    } else {
+        $.leftImage.hide();
+    }
+    if (e.x < 130) {
+        $.rightImage.show();
+    } else {
+        $.rightImage.hide();
+    }
+};

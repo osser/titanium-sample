@@ -1,4 +1,60 @@
 
-".container" : {
-  
+".container": {}
+"#leftImage": {
+	backgroundColor: 'lightgray',
+	backgroundImage: '/common/icon_arrow_left.png',
+	height: 30,
+	width: 30,
+	top: 18,
+	left: 5
+}
+
+"#rightImage": {
+	backgroundColor: 'lightgray',
+	backgroundImage: '/common/icon_arrow_right.png',
+	height: 30,
+	width: 30,
+	top: 18,
+	right: 5
+}
+
+"#scrollView1":{
+	contentWidth: 500,
+	contentHeight: 50,
+	top: 10,
+	height: 50,
+	width: 230,
+	borderRadius: 10,
+	backgroundColor: '#13386c'
+}
+
+"#scrollView2": {
+	contentWidth: 75,
+	contentHeight: 500,
+	top: 70,
+	height: 200,
+	width: 75,
+	borderRadius: 10,
+	backgroundColor: '#13386c'
+}
+
+".cssView":{
+	top:5,
+	backgroundColor: '#336699',
+	borderRadius: 20,
+	borderWidth: 1,
+	borderColor: '#336699',
+	width: 40,
+	height: 40,
+	left: 10
+}
+
+".cssLabel": {
+	font:{
+		fontSize: 13
+	},
+	color: '#fff',
+	width: 'auto',
+	textAlign: 'center',
+	height: 'auto'
 }
