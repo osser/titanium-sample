@@ -1,4 +1,19 @@
 
-".container" : {
-  
+".container": {}
+
+"#imageView":{
+	width: 200,
+	height: 300,
+	top: 20,
+	backgroundColor: 'lightgray'
 }
+
+"#lblInfo":{
+	text: 'Click Image of Tab Group',
+	bottom: 20,
+	color: '#999',
+	width: 'auto',
+	height: 'auto'
+}
+
+
