@@ -17,3 +17,18 @@ var showSource = function(e) {
         webshow.open();
     }
 };
+
+var button1_click = function(e) {
+    $.scrollView.scrollTo(0, 0);
+};
+
+var button2_click = function(e) {
+    var view = Ti.UI.createView({
+        backgroundColor : 'red',
+        borderRadius : 10,
+        width : 300,
+        height : 300,
+        top : 2020
+    });
+    $.scrollView.add(view);
+};
