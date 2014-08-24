@@ -1,4 +1,6 @@
 
-".container" : {
-  
+".container": {}
+
+"ListItem":{
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DETAIL
 }

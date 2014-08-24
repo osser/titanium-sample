@@ -4,6 +4,7 @@ var showurl = '';
 
 (function() {
     console.log('sourceUrl:', args.sourceUrl);
+    console.log('$.toolBar.height:', $.toolBar.height);
     showurl = args.sourceUrl;
     btnShowController_click(null);
 })();

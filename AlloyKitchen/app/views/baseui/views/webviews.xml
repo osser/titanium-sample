@@ -8,28 +8,27 @@
 		</Menu>
 		<ListView onItemclick="listView_itemclick">
 			<ListSection>
-				<ListItem title="External URL" formid=""></ListItem>
-				<ListItem title="Local URL" formid=""></ListItem>
-				<ListItem title="XHR to Filesystem" formid=""></ListItem>
-				<ListItem title="Image URL" formid=""></ListItem>
-				<ListItem title="Inline HTML" formid=""></ListItem>
-				<ListItem title="Inline HTML w/ Trans Bg" formid=""></ListItem>
-				<ListItem title="Inline HTML w/ Color Bg" formid=""></ListItem>
-				<ListItem title="Basic Auth" formid=""></ListItem>
-				<ListItem title="Logging and Unicode" formid=""></ListItem>
-				<ListItem title="Local Eval" formid="" platform="ios"></ListItem>
-				<ListItem title="Local HTML" formid="" platform="ios"></ListItem>
-				<ListItem title="Inline HTML w/ Border" formid="" platform="ios"></ListItem>
-				<ListItem title="PDF URL" formid="" platform="ios"></ListItem>
-				<ListItem title="SVG URL" formid="" platform="ios"></ListItem>
-				<ListItem title="Local image" formid="" platform="ios"></ListItem>
-				<ListItem title="Local SVG" formid="" platform="ios"></ListItem>
-				<ListItem title="Local Pinch/Zoom" formid="" platform="ios"></ListItem>
-				<ListItem title="Webview controls" formid="" platform="ios"></ListItem>
-				<ListItem title="Auto Size" formid="" platform="ios"></ListItem>
-				<ListItem title="Partial Auto" formid="" platform="ios"></ListItem>
-				<ListItem title="HTML5 Video" formid="" platform="ios"></ListItem>
-				<ListItem title="" formid="" platform="ios"></ListItem>
+				<ListItem title="External URL" formid="ExternalURL"></ListItem>
+				<ListItem title="Local URL" formid="LocalURL"></ListItem>
+				<ListItem title="XHR to Filesystem" formid="XHRtoFilesystem"></ListItem>
+				<ListItem title="Image URL" formid="ImageURL"></ListItem>
+				<ListItem title="Inline HTML" formid="InlineHTML"></ListItem>
+				<ListItem title="Inline HTML w/ Trans Bg" formid="InlineHTMLTransBg"></ListItem>
+				<ListItem title="Inline HTML w/ Color Bg" formid="InlineHTMLColorBg"></ListItem>
+				<ListItem title="Basic Auth" formid="BasicAuth"></ListItem>
+				<ListItem title="Logging and Unicode" formid="LoggingandUnicode"></ListItem>
+				<ListItem title="Local Eval" formid="LocalEval" platform="ios"></ListItem>
+				<ListItem title="Local HTML" formid="LocalHTML" platform="ios"></ListItem>
+				<ListItem title="Inline HTML w/ Border" formid="InlineHTMLBorder" platform="ios"></ListItem>
+				<ListItem title="PDF URL" formid="PDFURL" platform="ios"></ListItem>
+				<ListItem title="SVG URL" formid="SVGURL" platform="ios"></ListItem>
+				<ListItem title="Local image" formid="Localimage" platform="ios"></ListItem>
+				<ListItem title="Local SVG" formid="LocalSVG" platform="ios"></ListItem>
+				<ListItem title="Local Pinch/Zoom" formid="LocalPinchZoom" platform="ios"></ListItem>
+				<ListItem title="Webview controls" formid="Webviewcontrols" platform="ios"></ListItem>
+				<ListItem title="Auto Size" formid="AutoSize" platform="ios"></ListItem>
+				<ListItem title="Partial Auto" formid="PartialAuto" platform="ios"></ListItem>
+				<ListItem title="HTML5 Video" formid="HTML5Video" platform="ios"></ListItem>
 			</ListSection>
 		</ListView>
 	</Window>

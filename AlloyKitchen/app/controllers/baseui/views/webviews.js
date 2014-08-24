@@ -6,10 +6,12 @@ var args = arguments[0] || {};
 var listView_itemclick = function(e) {
     var item = e.section.getItemAt(e.itemIndex);
     if (item.properties.formid) {
-        var winid = 'baseui/views/webview/' + item.properties.formid;
+        //var winid = 'baseui/views/webview/' + item.properties.formid;
+        var winid = 'baseui/views/webviewshow';
         if (OS_IOS) {
             var win = Alloy.createController(winid, {
-                parentTab : args.parentTab
+                parentTab : args.parentTab,
+                item : item
             }).getView();
             args.parentTab.open(win);
         };
