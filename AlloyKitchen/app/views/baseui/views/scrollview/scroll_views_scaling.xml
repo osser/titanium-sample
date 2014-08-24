@@ -1,10 +1,24 @@
 <Alloy>
 	<Window class="container" title="Scrolling Zoom+Pinch">
 		<RightNavButton platform="ios">
-			<Button image="common/allsize/cmd16.png" onClick="showSource" />
+			<ButtonBar id="rightBtnBar" onClick="rightBtnBar_click">
+				<Labels>
+					<Label>+</Label>
+					<Label>-</Label>
+					<Label>Src</Label>
+				</Labels>
+			</ButtonBar>
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView" onScale="scrollView_scale" onScroll="scrollView_scroll">
+			<View id="view">
+				<Label id="label"></Label>
+			</View>
+		</ScrollView>
+		<View id="messageView">
+			<Label id="lblMsg"></Label>
+		</View>
 	</Window>
 </Alloy>

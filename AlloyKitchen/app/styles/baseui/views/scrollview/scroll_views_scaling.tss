@@ -1,4 +1,60 @@
 
-".container" : {
-  
+".container": {
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+"#scrollView":{
+	contentWidth: 'auto',
+	contentHeight: 'auto',
+	top: 0,
+	bottom: 50,
+	backgroundColor: '#ffc40d',
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: true,
+	maxZoomScale: 100,
+	minZoomScale: 0.1
+}
+
+"#view": {
+	backgroundColor: '#336699',
+	borderRadius: 10,
+	width: 300,
+	height: 500,
+	top: 10
+}
+
+"#label": {
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold',
+		fontFamily: 'Helvetica Neue'
+	},
+	text: 'Pinch or Zoom',
+	width: 'auto',
+	height: 'auto'
+}
+
+"#messageView": {
+	backgroundColor: 'black',
+	bottom: 0,
+	height: 50
+}
+
+"#lblMsg": {
+	font: {
+		fontSize: 14,
+		fontFamily: 'Helvetica Neue'
+	},
+	color: 'yellow',
+	width: 'auto',
+	height: 'auto'
+}
+
+"#rightBtnBar": {
+	backgroundColor: 'white',
+	borderRadius: 1,
+	top: 50,
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	height: 25,
+	width: 100
 }

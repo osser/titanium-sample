@@ -17,3 +17,23 @@ var showSource = function(e) {
         webshow.open();
     }
 };
+
+var scrollView_scale = function(e) {
+    $.lblMsg.text = "Zoomed to scale: " + e.scale;
+};
+
+var scrollView_scroll = function(e) {
+    $.lblMsg.text = "Scrolling to x:" + Math.round(e.x) + ", y:" + Math.round(e.y);
+};
+
+var rightBtnBar_click = function(e) {
+    console.log(e);
+    if (e.index === 0) {
+        $.scrollView.zoomScale = $.scrollView.zoomScale + 0.1;
+    } else if (e.index === 1) {
+        $.scrollView.zoomScale = $.scrollView.zoomScale - 0.1;
+    } else {
+        showSource(e);
+    }
+    $.lblMsg.text = "Scale: " + $.scrollView.zoomScale;
+};
