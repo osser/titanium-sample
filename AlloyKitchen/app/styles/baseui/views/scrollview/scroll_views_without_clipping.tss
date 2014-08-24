@@ -1,4 +1,4 @@
 
-".container" : {
-  
+".container": {
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 }
