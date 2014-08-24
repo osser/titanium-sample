@@ -15,7 +15,7 @@
 					<ListItem title="Image Views" formid="imageviews" />
 					<ListItem title="Scroll Views" formid="scrollviews" />
 					<ListItem title="Table Views" backgroundColor="lightgray" />
-					<ListItem title="Web Views" />
+					<ListItem title="Web Views" formid="webviews" />
 					<ListItem title="Alert Dialog" />
 					<ListItem title="Options Dialog" />
 					<ListItem title="Remove Views" />
