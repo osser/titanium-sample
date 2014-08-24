@@ -1,10 +1,24 @@
 <Alloy>
-	<Window class="container" title="Scrollable View">
+	<Window id="frmWin" class="container" title="Scrollable View">
 		<RightNavButton platform="ios">
 			<Button image="common/allsize/cmd16.png" onClick="showSource" />
 		</RightNavButton>
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollableView id="scrollableView">
+			<View backgroundColor="red">
+				<Label class="cssLabel">View 1</Label>
+			</View>
+			<View backgroundColor="blue">
+				<Label class="cssLabel">View 2</Label>
+			</View>
+			<View backgroundColor="green">
+				<Label class="cssLabel">View 3</Label>
+			</View>
+			<View backgroundColor="orange">
+				<Label class="cssLabel">View 4</Label>
+			</View>
+		</ScrollableView>
 	</Window>
 </Alloy>
