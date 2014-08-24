@@ -1,4 +1,115 @@
 
-".container" : {
-  
+".container": {}
+
+"#scrollView1":{
+	contentWidth: Ti.UI.SIZE,
+	contentHeight: Ti.UI.SIZE,
+	top: 10,
+	left: 10,
+	width: 100,
+	height: 150,
+	borderRadius: 10,
+	backgroundColor: '#ff99000',
+	showVerticalScrollIndicator: false,
+	showHorizontalScrollIndicator: true
+}
+
+"#view1":{
+	backgroundColor: '#336699',
+	borderRadius: 10,
+	width: 150,
+	height: 200,
+	top: 10
+}
+
+"#label1": {
+	text: 'Bounce:true, vertbar:false',
+	color: '#fff',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#scrollView2":{
+	contentWidth: Ti.UI.SIZE,
+	contentHeight: Ti.UI.SIZE,
+	top: 10,
+	right: 10,
+	width: 100,
+	height: 150,
+	borderRadius: 10,
+	backgroundColor: '#ff99000',
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: false
+}
+
+"#view2":{
+	backgroundColor: '#336699',
+	borderRadius: 10,
+	width: 150,
+	height: 200,
+	top: 10
+}
+
+"#label2": {
+	text: 'Bounce:true, horzbar:false',
+	color: '#fff',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#scrollView3": {
+	contentWidth: Ti.UI.SIZE,
+	contentHeight: Ti.UI.SIZE,
+	top: 170,
+	left: 10,
+	width: 100,
+	height: 150,
+	borderRadius: 10,
+	backgroundColor: '#ff99000',
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: true,
+	horizontalBounce: true,
+	verticalBounce: true
+}
+
+"#view3":{
+	backgroundColor: '#336699',
+	borderRadius: 10,
+	width: 200,
+	height: 200,
+	top: 10
+}
+
+"#label3": {
+	text: 'bounce',
+	color: '#fff',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#scrollView4": {
+	contentWidth: Ti.UI.SIZE,
+	contentHeight: Ti.UI.SIZE,
+	top: 170,
+	right: 10,
+	width: 100,
+	height: 150,
+	borderRadius: 10,
+	backgroundColor: '#ff99000',
+	disableBounce: true
+}
+
+"#view4":{
+	backgroundColor: '#336699',
+	borderRadius: 10,
+	width: 150,
+	height: 200,
+	top: 10
+}
+
+"#label4": {
+	text: 'bounce:false',
+	color: '#fff',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
 }

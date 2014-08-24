@@ -6,5 +6,25 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView1">
+			<View id="view1">
+				<Label id="label1"></Label>
+			</View>
+		</ScrollView>
+		<ScrollView id="scrollView2">
+			<View id="view2">
+				<Label id="label2"></Label>
+			</View>
+		</ScrollView>
+		<ScrollView id="scrollView3" platform="ios">
+			<View id="view3">
+				<Label id="label3"></Label>
+			</View>
+		</ScrollView>
+		<ScrollView id="scrollView4" platform="ios">
+			<View id="view4">
+				<Label id="label4"></Label>
+			</View>
+		</ScrollView>
 	</Window>
 </Alloy>

@@ -7,7 +7,7 @@
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
 		<ScrollView id="scrollView">
-			<View id="view">
+			<View id="viewTop">
 				<Button id="button1" onClick="button1_click"></Button>
 				<Button id="button2" onClick="button2_click"></Button>
 			</View>

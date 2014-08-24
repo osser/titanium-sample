@@ -1,19 +1,26 @@
 
-".container": {}
+".container": {
+	backgroundColor: '#eff4ff'
+}
 
 "#scrollView":{
 	contentWidth: Ti.UI.FILL,
 	contentHeight: Ti.UI.SIZE,
 	top: 0,
 	showVerticalScrollIndicator: true,
-	showHorizontalScrollIndicator: true
+	showHorizontalScrollIndicator: true,
+	borderColor: 'blue',
+	borderWidth: 1,
+	backgroundColor: '#e3a21a'
 }
 
-"#view": {
+"#viewTop": {
 	backgroundColor: '#336699',
 	borderRadius: 10,
+	borderColor: 'red',
+	borderWidth: 3,
 	width: 300,
-	height: 2000,
+	height: 500,
 	top: 10
 }
 
@@ -21,12 +28,14 @@
 	title: 'Scroll to Top',
 	height: 40,
 	width: 200,
-	bottom: 10
+	bottom: 10,
+	color: 'white'
 }
 
 "#button2": {
 	title: 'Add to Scroll View',
 	height: 40,
 	width: 200,
-	top: 20
+	top: 20,
+	color: 'white'
 }
