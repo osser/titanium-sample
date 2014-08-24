@@ -6,5 +6,10 @@
 		<Menu platform="android">
 			<MenuItem title="Source" icon="common/allsize/cmd16.png" onClick="showSource" />
 		</Menu>
+		<ScrollView id="scrollView">
+			<TextArea id="ta1"></TextArea>
+			<TextArea id="ta2"></TextArea>
+			<TextArea id="ta3"></TextArea>
+		</ScrollView>
 	</Window>
 </Alloy>

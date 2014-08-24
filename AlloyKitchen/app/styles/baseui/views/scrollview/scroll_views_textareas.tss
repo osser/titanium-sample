@@ -1,4 +1,58 @@
 
-".container" : {
-  
+".container": {}
+
+"#scrollView":{
+	contentHeight: 'auto',
+	contentWidth: 'auto'
+}
+
+"#ta1": {
+	value: 'I am a textarea',
+	height: 100,
+	width: 300,
+	top: 10,
+	font:{
+		fontSize: 20,
+		fontFamily: 'Marker Felt',
+		fontWeight: 'bold'
+	},
+	color: '#888',
+	textAlign: 'left',
+	borderWidth: 2,
+	borderColor: '#bbb',
+	borderRadius: 5
+}
+
+"#ta2": {
+	value: 'I am a textarea',
+	height: 100,
+	width: 300,
+	top: 120,
+	font:{
+		fontSize: 20,
+		fontFamily: 'Marker Felt',
+		fontWeight: 'bold'
+	},
+	color: '#888',
+	textAlign: 'left',
+	borderWidth: 2,
+	borderColor: '#555',
+	borderRadius: 5
+}
+
+"#ta3": {
+	value: 'I am a textarea',
+	height: 100,
+	width: 300,
+	top: 230,
+	font:{
+		fontSize: 20,
+		fontFamily: 'Marker Felt',
+		fontWeight: 'bold'
+	},
+	color: '#888',
+	textAlign: 'left',
+	borderWidth: 2,
+	borderColor: '#555',
+	borderRadius: 5
 }
