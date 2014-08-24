@@ -1,4 +1,51 @@
 
-".container" : {
-  
+".container": {}
+
+"#scrollView":{
+	width: 320,
+	height: 480,
+	contentWidth: 2000,
+	backgroundColor: 'white'
+}
+
+"#label1":{
+	text: 'Swipe Me',
+	width: 2000,
+	height: 30,
+	textAlign: 'left'
+}
+
+"#label2":{
+	text: '...and dragStart and dragEnd should fire!',
+	width: 2000,
+	height: 50,
+	textAlign: 'right'
+}
+
+"#messageView":{
+	backgroundColor: 'black',
+	bottom: 0,
+	height: 80
+}
+
+"#message1": {
+	font:{
+		fontSize: 14,
+		fontFamily: 'Helvetica Neue'
+	},
+	color: 'yellow',
+	width: 'auto',
+	height: 'auto',
+	top: 5
+}
+
+"#message2": {
+	font:{
+		fontSize: 14,
+		fontFamily: 'Helvetica Neue'
+	},
+	color: 'yellow',
+	width: 'auto',
+	height: 'auto',
+	bottom: 5
 }
