@@ -1,7 +1,7 @@
 var args = arguments[0] || {};
 
 (function() {
-    //console.log(args);
+    console.log(args);
 
     switch(args.item.properties.formid) {
     case 'ExternalURL':

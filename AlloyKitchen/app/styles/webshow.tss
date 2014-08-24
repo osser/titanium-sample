@@ -1,6 +1,7 @@
 
 ".container": {
-	backgroundColor: 'blue'
+	backgroundColor: 'blue',
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 }
 "#webView": {}
 
